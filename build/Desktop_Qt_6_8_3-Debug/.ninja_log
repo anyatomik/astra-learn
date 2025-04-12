@@ -1,0 +1,82 @@
+# ninja log v6
+924	951	1743606344233329499	/home/a-nya/Документы/Проект astra/project/astra-learn/build/Desktop_Qt_6_8_3-Debug/astra-learn_autogen/EWIEGA46WW/qrc_img.cpp	f34b2180078b7a4
+19	1482	1744044325247238290	CMakeFiles/astra-learn.dir/information.cpp.o	a111130dd5632bed
+19	2162	1744044325247238290	CMakeFiles/astra-learn.dir/mainwindow.cpp.o	467254153d208b88
+3	19	1744044325231238270	/home/a-nya/Документы/Проект astra/project/astra-learn/build/Desktop_Qt_6_8_3-Debug/astra-learn_autogen/timestamp	6f43fbffbccdc6f7
+19	2038	1744044325247238290	CMakeFiles/astra-learn.dir/settings.cpp.o	a5033f67869cee1b
+978	1201	1743606344262331074	CMakeFiles/astra-learn.dir/astra-learn_autogen/EWIEGA46WW/qrc_img.cpp.o	ea9e0712e012e8b7
+19	1599	1744044325247238290	CMakeFiles/astra-learn.dir/tests.cpp.o	98fa3e366513a741
+735	4010	1744003562815063451	CMakeFiles/astra-learn.dir/main.cpp.o	3e7e7f1d30450938
+924	951	1743606344233329499	astra-learn_autogen/EWIEGA46WW/qrc_img.cpp	f34b2180078b7a4
+735	3989	1744003562815063451	CMakeFiles/astra-learn.dir/astra-learn_autogen/mocs_compilation.cpp.o	f07f760bf473e18d
+3	19	1744044325231238270	astra-learn_autogen/timestamp	6f43fbffbccdc6f7
+19	1665	1744044325247238290	CMakeFiles/astra-learn.dir/learn.cpp.o	c5e9a97e4fcc3b20
+3	19	1744044325231238270	/home/a-nya/Документы/Проект astra/project/astra-learn/build/Desktop_Qt_6_8_3-Debug/astra-learn_autogen/mocs_compilation.cpp	6f43fbffbccdc6f7
+2162	2450	1744044327389241139	astra-learn	85ac510088b82b84
+3	19	1744044325231238270	astra-learn_autogen/mocs_compilation.cpp	6f43fbffbccdc6f7
+7	25	1744257217869747649	astra-learn_autogen/timestamp	6f43fbffbccdc6f7
+7	25	1744257217869747649	astra-learn_autogen/mocs_compilation.cpp	6f43fbffbccdc6f7
+7	25	1744257217869747649	/home/a-nya/Документы/Проект astra/project/astra-learn/build/Desktop_Qt_6_8_3-Debug/astra-learn_autogen/timestamp	6f43fbffbccdc6f7
+7	25	1744257217869747649	/home/a-nya/Документы/Проект astra/project/astra-learn/build/Desktop_Qt_6_8_3-Debug/astra-learn_autogen/mocs_compilation.cpp	6f43fbffbccdc6f7
+26	1718	1744257217888745271	CMakeFiles/astra-learn.dir/settings.cpp.o	a5033f67869cee1b
+25	1728	1744257217887745396	CMakeFiles/astra-learn.dir/information.cpp.o	a111130dd5632bed
+25	1881	1744257217887745396	CMakeFiles/astra-learn.dir/learn.cpp.o	c5e9a97e4fcc3b20
+26	2185	1744257217888745271	CMakeFiles/astra-learn.dir/tests.cpp.o	98fa3e366513a741
+25	2257	1744257217887745396	CMakeFiles/astra-learn.dir/mainwindow.cpp.o	467254153d208b88
+2257	2590	1744257220119467558	astra-learn	85ac510088b82b84
+7	406	1744257940566011501	astra-learn_autogen/timestamp	6f43fbffbccdc6f7
+7	406	1744257940566011501	astra-learn_autogen/mocs_compilation.cpp	6f43fbffbccdc6f7
+7	406	1744257940566011501	/home/a-nya/Документы/Проект astra/project/astra-learn/build/Desktop_Qt_6_8_3-Debug/astra-learn_autogen/timestamp	6f43fbffbccdc6f7
+7	406	1744257940566011501	/home/a-nya/Документы/Проект astra/project/astra-learn/build/Desktop_Qt_6_8_3-Debug/astra-learn_autogen/mocs_compilation.cpp	6f43fbffbccdc6f7
+407	2575	1744257940571011448	CMakeFiles/astra-learn.dir/settings.cpp.o	a5033f67869cee1b
+407	2724	1744257940571011448	CMakeFiles/astra-learn.dir/information.cpp.o	a111130dd5632bed
+407	2752	1744257940571011448	CMakeFiles/astra-learn.dir/learn.cpp.o	c5e9a97e4fcc3b20
+406	2813	1744257940571011448	CMakeFiles/astra-learn.dir/astra-learn_autogen/mocs_compilation.cpp.o	f07f760bf473e18d
+407	2835	1744257940571011448	CMakeFiles/astra-learn.dir/main.cpp.o	3e7e7f1d30450938
+407	2866	1744257940571011448	CMakeFiles/astra-learn.dir/mainwindow.cpp.o	467254153d208b88
+407	2906	1744257940571011448	CMakeFiles/astra-learn.dir/tests.cpp.o	98fa3e366513a741
+2906	3214	1744257943069984882	astra-learn	85ac510088b82b84
+10	622	1744261451537374650	astra-learn_autogen/timestamp	6f43fbffbccdc6f7
+10	622	1744261451537374650	astra-learn_autogen/mocs_compilation.cpp	6f43fbffbccdc6f7
+10	622	1744261451537374650	/home/a-nya/Документы/Проект astra/project/astra-learn/build/Desktop_Qt_6_8_3-Debug/astra-learn_autogen/timestamp	6f43fbffbccdc6f7
+10	622	1744261451537374650	/home/a-nya/Документы/Проект astra/project/astra-learn/build/Desktop_Qt_6_8_3-Debug/astra-learn_autogen/mocs_compilation.cpp	6f43fbffbccdc6f7
+624	4500	1744261451547374248	CMakeFiles/astra-learn.dir/information.cpp.o	a111130dd5632bed
+629	4577	1744261451552374048	CMakeFiles/astra-learn.dir/tests.cpp.o	98fa3e366513a741
+627	4730	1744261451550374128	CMakeFiles/astra-learn.dir/settings.cpp.o	a5033f67869cee1b
+626	4837	1744261451549374168	CMakeFiles/astra-learn.dir/learn.cpp.o	c5e9a97e4fcc3b20
+623	4982	1744261451546374289	CMakeFiles/astra-learn.dir/main.cpp.o	3e7e7f1d30450938
+622	5125	1744261451545374328	CMakeFiles/astra-learn.dir/astra-learn_autogen/mocs_compilation.cpp.o	f07f760bf473e18d
+624	5298	1744261451547374248	CMakeFiles/astra-learn.dir/mainwindow.cpp.o	467254153d208b88
+5298	5616	1744261456221188091	astra-learn	85ac510088b82b84
+6	19	1744261509326235155	astra-learn_autogen/timestamp	6f43fbffbccdc6f7
+6	19	1744261509326235155	astra-learn_autogen/mocs_compilation.cpp	6f43fbffbccdc6f7
+6	19	1744261509326235155	/home/a-nya/Документы/Проект astra/project/astra-learn/build/Desktop_Qt_6_8_3-Debug/astra-learn_autogen/timestamp	6f43fbffbccdc6f7
+6	19	1744261509326235155	/home/a-nya/Документы/Проект astra/project/astra-learn/build/Desktop_Qt_6_8_3-Debug/astra-learn_autogen/mocs_compilation.cpp	6f43fbffbccdc6f7
+19	1601	1744261509339234708	CMakeFiles/astra-learn.dir/settings.cpp.o	a5033f67869cee1b
+19	1631	1744261509339234708	CMakeFiles/astra-learn.dir/information.cpp.o	a111130dd5632bed
+19	1676	1744261509339234708	CMakeFiles/astra-learn.dir/learn.cpp.o	c5e9a97e4fcc3b20
+19	2183	1744261509339234708	CMakeFiles/astra-learn.dir/mainwindow.cpp.o	467254153d208b88
+19	2198	1744261509339234708	CMakeFiles/astra-learn.dir/tests.cpp.o	98fa3e366513a741
+2198	2490	1744261511518160025	astra-learn	85ac510088b82b84
+3	447	1744261659986683061	astra-learn_autogen/timestamp	6f43fbffbccdc6f7
+3	447	1744261659986683061	astra-learn_autogen/mocs_compilation.cpp	6f43fbffbccdc6f7
+3	447	1744261659986683061	/home/a-nya/Документы/Проект astra/project/astra-learn/build/Desktop_Qt_6_8_3-Debug/astra-learn_autogen/timestamp	6f43fbffbccdc6f7
+3	447	1744261659986683061	/home/a-nya/Документы/Проект astra/project/astra-learn/build/Desktop_Qt_6_8_3-Debug/astra-learn_autogen/mocs_compilation.cpp	6f43fbffbccdc6f7
+447	2893	1744261659990682951	CMakeFiles/astra-learn.dir/information.cpp.o	a111130dd5632bed
+448	2945	1744261659991682924	CMakeFiles/astra-learn.dir/settings.cpp.o	a5033f67869cee1b
+447	2976	1744261659990682951	CMakeFiles/astra-learn.dir/astra-learn_autogen/mocs_compilation.cpp.o	f07f760bf473e18d
+447	2980	1744261659990682951	CMakeFiles/astra-learn.dir/main.cpp.o	3e7e7f1d30450938
+448	3033	1744261659991682924	CMakeFiles/astra-learn.dir/tests.cpp.o	98fa3e366513a741
+447	3128	1744261659990682951	CMakeFiles/astra-learn.dir/mainwindow.cpp.o	467254153d208b88
+447	3131	1744261659990682951	CMakeFiles/astra-learn.dir/learn.cpp.o	c5e9a97e4fcc3b20
+3131	3425	1744261662675609457	astra-learn	85ac510088b82b84
+3	15	1744261705917871714	astra-learn_autogen/timestamp	6f43fbffbccdc6f7
+3	15	1744261705917871714	astra-learn_autogen/mocs_compilation.cpp	6f43fbffbccdc6f7
+3	15	1744261705917871714	/home/a-nya/Документы/Проект astra/project/astra-learn/build/Desktop_Qt_6_8_3-Debug/astra-learn_autogen/timestamp	6f43fbffbccdc6f7
+3	15	1744261705917871714	/home/a-nya/Документы/Проект astra/project/astra-learn/build/Desktop_Qt_6_8_3-Debug/astra-learn_autogen/mocs_compilation.cpp	6f43fbffbccdc6f7
+16	1550	1744261705930872670	CMakeFiles/astra-learn.dir/settings.cpp.o	a5033f67869cee1b
+16	1948	1744261705930872670	CMakeFiles/astra-learn.dir/information.cpp.o	a111130dd5632bed
+16	2249	1744261705930872670	CMakeFiles/astra-learn.dir/tests.cpp.o	98fa3e366513a741
+16	2316	1744261705930872670	CMakeFiles/astra-learn.dir/mainwindow.cpp.o	467254153d208b88
+16	2352	1744261705930872670	CMakeFiles/astra-learn.dir/learn.cpp.o	c5e9a97e4fcc3b20
+2352	2643	1744261708267043163	astra-learn	85ac510088b82b84

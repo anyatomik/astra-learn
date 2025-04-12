@@ -1,0 +1,11 @@
+<RCC>
+    <qresource prefix="/new/icons">
+        <file>img/applyed.png</file>
+        <file>img/book.png</file>
+        <file>img/information.png</file>
+        <file>img/settings.png</file>
+        <file>img/pin1.png</file>
+        <file>img/pin2.png</file>
+        <file>img/back.png</file>
+    </qresource>
+</RCC>
