@@ -3,6 +3,7 @@
 
 #include <QWidget>
 #include "settings.h"
+#include <QSettings>
 
 
 
@@ -18,8 +19,8 @@ class learn : public QWidget
 public:
     explicit learn(QWidget *parent = nullptr);
     ~learn();
-    int pin1 = 0;
-    QString show_pins_id;
+    int pin1;
+   // QString show_pins_id;
 
 private slots:
    // void on_pins_clicked(bool checked);
@@ -40,10 +41,13 @@ private slots:
     void check_pin_num();
     void on_pins_clicked();
     void txtts();
+    void saveSettings();
+    void loadSettings();
 
 private:
     Ui::learn *ui;
     settings sett;
+    QSettings* app_sett;
 
 signals:
     void signal1();

@@ -9,30 +9,41 @@ learn::learn(QWidget *parent)
     , ui(new Ui::learn)
 {
     ui->setupUi(this);
+    app_sett = new QSettings(this);
+    loadSettings();
+    reset_pin();
     if (ui -> buttons -> currentIndex() == 0)
     {
         ui -> pins ->setEnabled(false);
         ui -> back_to_main -> setEnabled(false);
     }
 
-
-
-
 }
 
 learn::~learn()
 {
+    saveSettings();
     delete ui;
 
 }
 
+void learn::saveSettings()
+{
+    app_sett->setValue("pins", pin1);
+}
+
+void learn::loadSettings()
+{
+    pin1 = app_sett -> value("pins", 0).toInt();
+
+}
 void learn::reset_pin()
 {
-    show_pins_id = QString::number(pin1);
-    ui -> label_2 -> setText("Тема " + show_pins_id);
+    ui -> label_2 -> setText("Тема " + (QString::number(pin1)));
     if(pin1 ==0)
     {
         ui -> label_2 -> setText(" ");
+
     }
 }
 
@@ -95,6 +106,8 @@ void learn::txtts()
         ui -> windows -> setText("Система управления базами данных");
     }
 }
+
+
 
 void learn::check_pin_num()
 {
