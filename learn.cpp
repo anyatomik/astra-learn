@@ -1,6 +1,8 @@
 #include "learn.h"
 #include "ui_learn.h"
 #include <QMessageBox>
+#include <QSettings>
+#include <QDebug>
 
 
 
@@ -11,6 +13,7 @@ learn::learn(QWidget *parent)
     ui->setupUi(this);
     app_sett = new QSettings(this);
     loadSettings();
+
     reset_pin();
     if (ui -> buttons -> currentIndex() == 0)
     {
@@ -35,16 +38,15 @@ void learn::saveSettings()
 void learn::loadSettings()
 {
     pin1 = app_sett -> value("pins", 0).toInt();
+    reset_pin();
 
 }
 void learn::reset_pin()
 {
     ui -> label_2 -> setText("Тема " + (QString::number(pin1)));
-    if(pin1 ==0)
-    {
-        ui -> label_2 -> setText(" ");
+    if (pin1 ==0)
+    ui -> label_2 -> setText(" ");
 
-    }
 }
 
 
@@ -70,6 +72,15 @@ void learn::txtts()
     ui -> pins ->setEnabled(true);
     ui -> back_to_main -> setEnabled(true);
     check_pin_num();
+    ui -> page_buttons -> setCurrentIndex(ui -> buttons -> currentIndex());
+
+    if (ui -> buttons -> currentIndex() ==0)
+    {
+        ui -> pins ->setEnabled(false);
+        ui -> back_to_main -> setEnabled(false);
+        ui -> windows -> setText("Выбор темы");
+        ui -> page_buttons -> setCurrentIndex(0);
+    }
 
     if(ui -> buttons -> currentIndex()==1)
     {
@@ -185,9 +196,8 @@ void learn::on_back_to_main_clicked()
 
         ui -> buttons -> setCurrentIndex(0);
         check_pin_num();
-        ui -> pins ->setEnabled(false);
-        ui -> back_to_main -> setEnabled(false);
-        ui -> windows -> setText("Выбор темы");
+        txtts();
+
     }
 }
 
@@ -203,7 +213,5 @@ void learn::on_pushButton_clicked()
     }
 
 }
-
-
 
 

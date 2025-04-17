@@ -1,0 +1,31 @@
+{
+	"BUILD_DIR" : "/home/a-nya/Projects/Astra-learn/astra-learn/build/Desktop_Qt_6_8_3-Debug2/astra-learn_autogen",
+	"CMAKE_BINARY_DIR" : "/home/a-nya/Projects/Astra-learn/astra-learn/build/Desktop_Qt_6_8_3-Debug2",
+	"CMAKE_CURRENT_BINARY_DIR" : "/home/a-nya/Projects/Astra-learn/astra-learn/build/Desktop_Qt_6_8_3-Debug2",
+	"CMAKE_CURRENT_SOURCE_DIR" : "/home/a-nya/Projects/Astra-learn/astra-learn",
+	"CMAKE_SOURCE_DIR" : "/home/a-nya/Projects/Astra-learn/astra-learn",
+	"CROSS_CONFIG" : false,
+	"GENERATOR" : "Ninja",
+	"INCLUDE_DIR" : "/home/a-nya/Projects/Astra-learn/astra-learn/build/Desktop_Qt_6_8_3-Debug2/astra-learn_autogen/include",
+	"INPUTS" : 
+	[
+		"/home/a-nya/Projects/Astra-learn/astra-learn/img/pin1.png",
+		"/home/a-nya/Projects/Astra-learn/astra-learn/img/back.png",
+		"/home/a-nya/Projects/Astra-learn/astra-learn/img/book.png",
+		"/home/a-nya/Projects/Astra-learn/astra-learn/img/settings.png",
+		"/home/a-nya/Projects/Astra-learn/astra-learn/img/applyed.png",
+		"/home/a-nya/Projects/Astra-learn/astra-learn/img/pin2.png",
+		"/home/a-nya/Projects/Astra-learn/astra-learn/img/information.png"
+	],
+	"LOCK_FILE" : "/home/a-nya/Projects/Astra-learn/astra-learn/build/Desktop_Qt_6_8_3-Debug2/CMakeFiles/astra-learn_autogen.dir/AutoRcc_img_EWIEGA46WW_Lock.lock",
+	"MULTI_CONFIG" : false,
+	"OPTIONS" : [ "-name", "img" ],
+	"OUTPUT_CHECKSUM" : "EWIEGA46WW",
+	"OUTPUT_NAME" : "qrc_img.cpp",
+	"RCC_EXECUTABLE" : "/home/a-nya/Qt/6.8.3/gcc_64/libexec/rcc",
+	"RCC_LIST_OPTIONS" : [ "--list" ],
+	"SETTINGS_FILE" : "/home/a-nya/Projects/Astra-learn/astra-learn/build/Desktop_Qt_6_8_3-Debug2/CMakeFiles/astra-learn_autogen.dir/AutoRcc_img_EWIEGA46WW_Used.txt",
+	"SOURCE" : "/home/a-nya/Projects/Astra-learn/astra-learn/img.qrc",
+	"USE_BETTER_GRAPH" : true,
+	"VERBOSITY" : 0
+}

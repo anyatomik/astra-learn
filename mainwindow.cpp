@@ -1,6 +1,7 @@
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
 #include "learn.h"
+#include <QSettings>
 
 
 MainWindow::MainWindow(QWidget *parent)
@@ -8,6 +9,7 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
+
 }
 
 MainWindow::~MainWindow()
@@ -37,6 +39,8 @@ void MainWindow::on_information_clicked()
 {
     inf.show();
 }
+
+
 
 void MainWindow::slot1()
 {

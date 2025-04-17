@@ -44,7 +44,7 @@
       <x>10</x>
       <y>40</y>
       <width>581</width>
-      <height>161</height>
+      <height>171</height>
      </rect>
     </property>
     <layout class="QHBoxLayout" name="buttons_layout">
@@ -264,39 +264,6 @@
     <property name="text">
      <string>Здравствуйте! Приветствуем вас в обучающем приложении по Astra Linux!</string>
     </property>
-   </widget>
-   <widget class="QWidget" name="">
-    <property name="geometry">
-     <rect>
-      <x>10</x>
-      <y>220</y>
-      <width>161</width>
-      <height>54</height>
-     </rect>
-    </property>
-    <layout class="QFormLayout" name="formLayout">
-     <item row="0" column="0">
-      <widget class="QLabel" name="label_6">
-       <property name="text">
-        <string>Обучение</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="0">
-      <widget class="QLabel" name="label_7">
-       <property name="text">
-        <string>Закладки: Тема</string>
-       </property>
-      </widget>
-     </item>
-     <item row="1" column="1">
-      <widget class="QLabel" name="pins_main">
-       <property name="text">
-        <string/>
-       </property>
-      </widget>
-     </item>
-    </layout>
    </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">

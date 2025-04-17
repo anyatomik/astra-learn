@@ -20,6 +20,7 @@ public:
     explicit learn(QWidget *parent = nullptr);
     ~learn();
     int pin1;
+
    // QString show_pins_id;
 
 private slots:
@@ -44,13 +45,14 @@ private slots:
     void saveSettings();
     void loadSettings();
 
+
+
 private:
     Ui::learn *ui;
     settings sett;
     QSettings* app_sett;
 
-signals:
-    void signal1();
+
 
 
 };

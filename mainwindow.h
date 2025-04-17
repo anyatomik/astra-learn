@@ -22,6 +22,7 @@ public:
     ~MainWindow();
 
 
+
 private slots:
     void on_learn_clicked();
 
@@ -30,6 +31,7 @@ private slots:
     void on_settings_clicked();
 
     void on_information_clicked();
+
 
 private:
     Ui::MainWindow *ui;
@@ -42,6 +44,7 @@ private:
     learn lrn;
     settings sett;
     tests tsts;
+
 
 public slots:
 

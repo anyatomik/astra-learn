@@ -19,14 +19,6 @@ public:
 private slots:
     void on_settings_clicked();
 
-    void on_butt1_clicked();
-    void on_butt2_clicked();
-    void on_butt3_clicked();
-    void on_butt4_clicked();
-    void on_butt5_clicked();
-    void on_butt6_clicked();
-    void on_butt7_clicked();
-    void on_butt8_clicked();
     void check();
 
 
