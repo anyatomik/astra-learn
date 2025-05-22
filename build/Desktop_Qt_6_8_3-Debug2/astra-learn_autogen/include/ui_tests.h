@@ -27,19 +27,19 @@ QT_BEGIN_NAMESPACE
 class Ui_tests
 {
 public:
-    QWidget *widget;
+    QWidget *layoutWidget;
     QVBoxLayout *verticalLayout;
     QFrame *menu;
     QLabel *windows;
-    QWidget *layoutWidget;
+    QWidget *layoutWidget1;
     QHBoxLayout *buttlayout;
     QPushButton *back_to_main;
     QPushButton *settings;
     QStackedWidget *main_all;
-    QWidget *nothing;
-    QWidget *widget1;
+    QWidget *allbuttons;
+    QWidget *layoutWidget2;
     QHBoxLayout *horizontalLayout;
-    QScrollArea *scrollArea;
+    QScrollArea *allTestButtons;
     QWidget *scrollAreaWidgetContents;
     QVBoxLayout *verticalLayout_2;
     QPushButton *butt1;
@@ -53,47 +53,100 @@ public:
     QSpacerItem *horizontalSpacer_2;
     QVBoxLayout *verticalLayout_5;
     QHBoxLayout *horizontalLayout_4;
-    QStackedWidget *stackedWidget_2;
+    QStackedWidget *oneTestButtons;
     QWidget *th1;
     QScrollArea *scrollArea1;
     QWidget *scrollAreaWidgetContents1;
     QVBoxLayout *verticalLayout_4;
-    QPushButton *pushButton;
-    QPushButton *pushButton_2;
-    QPushButton *pushButton_3;
+    QPushButton *testButT_1_1;
+    QPushButton *testButT_1_2;
+    QPushButton *testButT_1_3;
     QWidget *th2;
-    QScrollArea *scrollArea2;
-    QWidget *scrollAreaWidgetContents2;
+    QScrollArea *scrollArea1_2;
+    QWidget *scrollAreaWidgetContents1_2;
+    QVBoxLayout *verticalLayout_6;
+    QPushButton *testButT_2_1;
+    QPushButton *testButT_2_2;
+    QPushButton *testButT_2_3;
     QWidget *th3;
-    QScrollArea *scrollArea3;
-    QWidget *scrollAreaWidgetContents3;
+    QScrollArea *scrollArea1_3;
+    QWidget *scrollAreaWidgetContents1_3;
+    QVBoxLayout *verticalLayout_7;
+    QPushButton *testButT_3_1;
+    QPushButton *testButT_3_2;
+    QPushButton *testButT_3_3;
     QWidget *th4;
-    QScrollArea *scrollArea4;
-    QWidget *scrollAreaWidgetContents4;
+    QScrollArea *scrollArea1_4;
+    QWidget *scrollAreaWidgetContents1_4;
+    QVBoxLayout *verticalLayout_8;
+    QPushButton *testButT_4_2;
+    QPushButton *testButT_4_1;
+    QPushButton *testButT_4_3;
     QWidget *th5;
-    QScrollArea *scrollArea5;
-    QWidget *scrollAreaWidgetContents5;
+    QScrollArea *scrollArea1_5;
+    QWidget *scrollAreaWidgetContents1_6;
+    QVBoxLayout *verticalLayout_10;
+    QPushButton *testButT_5_1;
+    QPushButton *testButT_5_2;
+    QPushButton *testButT_5_3;
     QWidget *th6;
-    QScrollArea *scrollArea6;
-    QWidget *scrollAreaWidgetContents6;
+    QScrollArea *scrollArea1_6;
+    QWidget *scrollAreaWidgetContents1_7;
+    QVBoxLayout *verticalLayout_11;
+    QPushButton *testButT_6_1;
+    QPushButton *testButT_6_2;
+    QPushButton *testButT_6_3;
     QWidget *th7;
-    QScrollArea *scrollArea7;
-    QWidget *scrollAreaWidgetContents7;
+    QScrollArea *scrollArea1_7;
+    QWidget *scrollAreaWidgetContents1_8;
+    QVBoxLayout *verticalLayout_12;
+    QPushButton *testButT_7_2;
+    QPushButton *testButT_7_1;
+    QPushButton *testButT_7_3;
     QWidget *th8;
-    QScrollArea *scrollArea8;
-    QWidget *scrollAreaWidgetContents8;
+    QScrollArea *scrollArea1_8;
+    QWidget *scrollAreaWidgetContents1_9;
+    QVBoxLayout *verticalLayout_13;
+    QPushButton *testButT_8_1;
+    QPushButton *testButT_8_2;
+    QPushButton *testButT_8_3;
     QSpacerItem *verticalSpacer_2;
     QHBoxLayout *horizontalLayout_2;
-    QFrame *frame;
+    QFrame *info;
     QSpacerItem *verticalSpacer;
-    QWidget *theme_1_test1;
-    QWidget *theme_2_test1;
-    QWidget *theme_3_test1;
-    QWidget *theme_4;
-    QWidget *theme_6;
-    QWidget *theme_5;
-    QWidget *theme_7;
-    QWidget *theme_8;
+    QWidget *theme_1_test_1;
+    QStackedWidget *questions_1_1;
+    QWidget *first_1_1;
+    QWidget *second_1_1;
+    QWidget *theme_2_test_1;
+    QStackedWidget *questions_2_1;
+    QWidget *first_2_1;
+    QWidget *second_2_1;
+    QWidget *theme_3_test_1;
+    QStackedWidget *questions_3_1;
+    QWidget *first_3_1;
+    QWidget *second_3_1;
+    QWidget *theme_4_test_1;
+    QStackedWidget *questions_4_1;
+    QWidget *first_4_1;
+    QWidget *second_4_1;
+    QWidget *theme_6_test_1;
+    QStackedWidget *questions_6_1;
+    QWidget *first_6_1;
+    QWidget *second_6_1;
+    QWidget *theme_5_test_1;
+    QStackedWidget *questions_5_1;
+    QWidget *first_5_1;
+    QWidget *second_5_1;
+    QWidget *theme_7_test_1;
+    QStackedWidget *questions_7_1;
+    QWidget *first_7_1;
+    QWidget *second_7_1;
+    QWidget *theme_8_test_1;
+    QStackedWidget *questions_8_1;
+    QWidget *first_8_1;
+    QWidget *second_8_1;
+    QWidget *theEnd_8_1;
 
     void setupUi(QWidget *tests)
     {
@@ -103,13 +156,13 @@ public:
         QIcon icon;
         icon.addFile(QString::fromUtf8(":/new/icons/img/applyed.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
         tests->setWindowIcon(icon);
-        widget = new QWidget(tests);
-        widget->setObjectName("widget");
-        widget->setGeometry(QRect(0, 0, 841, 521));
-        verticalLayout = new QVBoxLayout(widget);
+        layoutWidget = new QWidget(tests);
+        layoutWidget->setObjectName("layoutWidget");
+        layoutWidget->setGeometry(QRect(0, 0, 841, 521));
+        verticalLayout = new QVBoxLayout(layoutWidget);
         verticalLayout->setObjectName("verticalLayout");
         verticalLayout->setContentsMargins(0, 0, 0, 0);
-        menu = new QFrame(widget);
+        menu = new QFrame(layoutWidget);
         menu->setObjectName("menu");
         menu->setMinimumSize(QSize(800, 35));
         menu->setMaximumSize(QSize(16777215, 40));
@@ -117,13 +170,13 @@ public:
         windows = new QLabel(menu);
         windows->setObjectName("windows");
         windows->setGeometry(QRect(10, 0, 341, 41));
-        layoutWidget = new QWidget(menu);
-        layoutWidget->setObjectName("layoutWidget");
-        layoutWidget->setGeometry(QRect(760, 0, 81, 35));
-        buttlayout = new QHBoxLayout(layoutWidget);
+        layoutWidget1 = new QWidget(menu);
+        layoutWidget1->setObjectName("layoutWidget1");
+        layoutWidget1->setGeometry(QRect(760, 0, 81, 35));
+        buttlayout = new QHBoxLayout(layoutWidget1);
         buttlayout->setObjectName("buttlayout");
         buttlayout->setContentsMargins(0, 0, 0, 0);
-        back_to_main = new QPushButton(layoutWidget);
+        back_to_main = new QPushButton(layoutWidget1);
         back_to_main->setObjectName("back_to_main");
         back_to_main->setMinimumSize(QSize(33, 33));
         back_to_main->setMaximumSize(QSize(32, 32));
@@ -136,7 +189,7 @@ public:
 
         buttlayout->addWidget(back_to_main);
 
-        settings = new QPushButton(layoutWidget);
+        settings = new QPushButton(layoutWidget1);
         settings->setObjectName("settings");
         settings->setMinimumSize(QSize(33, 33));
         settings->setMaximumSize(QSize(32, 32));
@@ -152,22 +205,22 @@ public:
 
         verticalLayout->addWidget(menu);
 
-        main_all = new QStackedWidget(widget);
+        main_all = new QStackedWidget(layoutWidget);
         main_all->setObjectName("main_all");
         main_all->setMinimumSize(QSize(470, 0));
-        nothing = new QWidget();
-        nothing->setObjectName("nothing");
-        widget1 = new QWidget(nothing);
-        widget1->setObjectName("widget1");
-        widget1->setGeometry(QRect(0, 0, 850, 481));
-        horizontalLayout = new QHBoxLayout(widget1);
+        allbuttons = new QWidget();
+        allbuttons->setObjectName("allbuttons");
+        layoutWidget2 = new QWidget(allbuttons);
+        layoutWidget2->setObjectName("layoutWidget2");
+        layoutWidget2->setGeometry(QRect(0, 0, 850, 481));
+        horizontalLayout = new QHBoxLayout(layoutWidget2);
         horizontalLayout->setObjectName("horizontalLayout");
         horizontalLayout->setContentsMargins(0, 0, 0, 0);
-        scrollArea = new QScrollArea(widget1);
-        scrollArea->setObjectName("scrollArea");
-        scrollArea->setMinimumSize(QSize(355, 200));
-        scrollArea->setMaximumSize(QSize(16777215, 16777215));
-        scrollArea->setWidgetResizable(true);
+        allTestButtons = new QScrollArea(layoutWidget2);
+        allTestButtons->setObjectName("allTestButtons");
+        allTestButtons->setMinimumSize(QSize(355, 200));
+        allTestButtons->setMaximumSize(QSize(16777215, 16777215));
+        allTestButtons->setWidgetResizable(true);
         scrollAreaWidgetContents = new QWidget();
         scrollAreaWidgetContents->setObjectName("scrollAreaWidgetContents");
         scrollAreaWidgetContents->setGeometry(QRect(0, 0, 339, 806));
@@ -233,17 +286,17 @@ public:
 
         verticalLayout_2->addItem(horizontalSpacer_2);
 
-        scrollArea->setWidget(scrollAreaWidgetContents);
+        allTestButtons->setWidget(scrollAreaWidgetContents);
 
-        horizontalLayout->addWidget(scrollArea);
+        horizontalLayout->addWidget(allTestButtons);
 
         verticalLayout_5 = new QVBoxLayout();
         verticalLayout_5->setObjectName("verticalLayout_5");
         horizontalLayout_4 = new QHBoxLayout();
         horizontalLayout_4->setObjectName("horizontalLayout_4");
-        stackedWidget_2 = new QStackedWidget(widget1);
-        stackedWidget_2->setObjectName("stackedWidget_2");
-        stackedWidget_2->setMinimumSize(QSize(465, 266));
+        oneTestButtons = new QStackedWidget(layoutWidget2);
+        oneTestButtons->setObjectName("oneTestButtons");
+        oneTestButtons->setMinimumSize(QSize(465, 266));
         th1 = new QWidget();
         th1->setObjectName("th1");
         scrollArea1 = new QScrollArea(th1);
@@ -252,108 +305,248 @@ public:
         scrollArea1->setWidgetResizable(true);
         scrollAreaWidgetContents1 = new QWidget();
         scrollAreaWidgetContents1->setObjectName("scrollAreaWidgetContents1");
-        scrollAreaWidgetContents1->setGeometry(QRect(0, 0, 445, 300));
+        scrollAreaWidgetContents1->setGeometry(QRect(0, 0, 98, 300));
         verticalLayout_4 = new QVBoxLayout(scrollAreaWidgetContents1);
         verticalLayout_4->setObjectName("verticalLayout_4");
-        pushButton = new QPushButton(scrollAreaWidgetContents1);
-        pushButton->setObjectName("pushButton");
-        pushButton->setMinimumSize(QSize(0, 90));
+        testButT_1_1 = new QPushButton(scrollAreaWidgetContents1);
+        testButT_1_1->setObjectName("testButT_1_1");
+        testButT_1_1->setMinimumSize(QSize(0, 90));
 
-        verticalLayout_4->addWidget(pushButton);
+        verticalLayout_4->addWidget(testButT_1_1);
 
-        pushButton_2 = new QPushButton(scrollAreaWidgetContents1);
-        pushButton_2->setObjectName("pushButton_2");
-        pushButton_2->setMinimumSize(QSize(0, 90));
+        testButT_1_2 = new QPushButton(scrollAreaWidgetContents1);
+        testButT_1_2->setObjectName("testButT_1_2");
+        testButT_1_2->setMinimumSize(QSize(0, 90));
 
-        verticalLayout_4->addWidget(pushButton_2);
+        verticalLayout_4->addWidget(testButT_1_2);
 
-        pushButton_3 = new QPushButton(scrollAreaWidgetContents1);
-        pushButton_3->setObjectName("pushButton_3");
-        pushButton_3->setMinimumSize(QSize(0, 90));
+        testButT_1_3 = new QPushButton(scrollAreaWidgetContents1);
+        testButT_1_3->setObjectName("testButT_1_3");
+        testButT_1_3->setMinimumSize(QSize(0, 90));
 
-        verticalLayout_4->addWidget(pushButton_3);
+        verticalLayout_4->addWidget(testButT_1_3);
 
         scrollArea1->setWidget(scrollAreaWidgetContents1);
-        stackedWidget_2->addWidget(th1);
+        oneTestButtons->addWidget(th1);
         th2 = new QWidget();
         th2->setObjectName("th2");
-        scrollArea2 = new QScrollArea(th2);
-        scrollArea2->setObjectName("scrollArea2");
-        scrollArea2->setGeometry(QRect(0, 0, 471, 271));
-        scrollArea2->setWidgetResizable(true);
-        scrollAreaWidgetContents2 = new QWidget();
-        scrollAreaWidgetContents2->setObjectName("scrollAreaWidgetContents2");
-        scrollAreaWidgetContents2->setGeometry(QRect(0, 0, 469, 269));
-        scrollArea2->setWidget(scrollAreaWidgetContents2);
-        stackedWidget_2->addWidget(th2);
+        scrollArea1_2 = new QScrollArea(th2);
+        scrollArea1_2->setObjectName("scrollArea1_2");
+        scrollArea1_2->setGeometry(QRect(0, 0, 461, 271));
+        scrollArea1_2->setWidgetResizable(true);
+        scrollAreaWidgetContents1_2 = new QWidget();
+        scrollAreaWidgetContents1_2->setObjectName("scrollAreaWidgetContents1_2");
+        scrollAreaWidgetContents1_2->setGeometry(QRect(0, 0, 98, 300));
+        verticalLayout_6 = new QVBoxLayout(scrollAreaWidgetContents1_2);
+        verticalLayout_6->setObjectName("verticalLayout_6");
+        testButT_2_1 = new QPushButton(scrollAreaWidgetContents1_2);
+        testButT_2_1->setObjectName("testButT_2_1");
+        testButT_2_1->setMinimumSize(QSize(0, 90));
+
+        verticalLayout_6->addWidget(testButT_2_1);
+
+        testButT_2_2 = new QPushButton(scrollAreaWidgetContents1_2);
+        testButT_2_2->setObjectName("testButT_2_2");
+        testButT_2_2->setMinimumSize(QSize(0, 90));
+
+        verticalLayout_6->addWidget(testButT_2_2);
+
+        testButT_2_3 = new QPushButton(scrollAreaWidgetContents1_2);
+        testButT_2_3->setObjectName("testButT_2_3");
+        testButT_2_3->setMinimumSize(QSize(0, 90));
+
+        verticalLayout_6->addWidget(testButT_2_3);
+
+        scrollArea1_2->setWidget(scrollAreaWidgetContents1_2);
+        oneTestButtons->addWidget(th2);
         th3 = new QWidget();
         th3->setObjectName("th3");
-        scrollArea3 = new QScrollArea(th3);
-        scrollArea3->setObjectName("scrollArea3");
-        scrollArea3->setGeometry(QRect(0, 0, 471, 271));
-        scrollArea3->setWidgetResizable(true);
-        scrollAreaWidgetContents3 = new QWidget();
-        scrollAreaWidgetContents3->setObjectName("scrollAreaWidgetContents3");
-        scrollAreaWidgetContents3->setGeometry(QRect(0, 0, 469, 269));
-        scrollArea3->setWidget(scrollAreaWidgetContents3);
-        stackedWidget_2->addWidget(th3);
+        scrollArea1_3 = new QScrollArea(th3);
+        scrollArea1_3->setObjectName("scrollArea1_3");
+        scrollArea1_3->setGeometry(QRect(0, 0, 461, 271));
+        scrollArea1_3->setWidgetResizable(true);
+        scrollAreaWidgetContents1_3 = new QWidget();
+        scrollAreaWidgetContents1_3->setObjectName("scrollAreaWidgetContents1_3");
+        scrollAreaWidgetContents1_3->setGeometry(QRect(0, 0, 98, 300));
+        verticalLayout_7 = new QVBoxLayout(scrollAreaWidgetContents1_3);
+        verticalLayout_7->setObjectName("verticalLayout_7");
+        testButT_3_1 = new QPushButton(scrollAreaWidgetContents1_3);
+        testButT_3_1->setObjectName("testButT_3_1");
+        testButT_3_1->setMinimumSize(QSize(0, 90));
+
+        verticalLayout_7->addWidget(testButT_3_1);
+
+        testButT_3_2 = new QPushButton(scrollAreaWidgetContents1_3);
+        testButT_3_2->setObjectName("testButT_3_2");
+        testButT_3_2->setMinimumSize(QSize(0, 90));
+
+        verticalLayout_7->addWidget(testButT_3_2);
+
+        testButT_3_3 = new QPushButton(scrollAreaWidgetContents1_3);
+        testButT_3_3->setObjectName("testButT_3_3");
+        testButT_3_3->setMinimumSize(QSize(0, 90));
+
+        verticalLayout_7->addWidget(testButT_3_3);
+
+        scrollArea1_3->setWidget(scrollAreaWidgetContents1_3);
+        oneTestButtons->addWidget(th3);
         th4 = new QWidget();
         th4->setObjectName("th4");
-        scrollArea4 = new QScrollArea(th4);
-        scrollArea4->setObjectName("scrollArea4");
-        scrollArea4->setGeometry(QRect(0, 0, 471, 271));
-        scrollArea4->setWidgetResizable(true);
-        scrollAreaWidgetContents4 = new QWidget();
-        scrollAreaWidgetContents4->setObjectName("scrollAreaWidgetContents4");
-        scrollAreaWidgetContents4->setGeometry(QRect(0, 0, 469, 269));
-        scrollArea4->setWidget(scrollAreaWidgetContents4);
-        stackedWidget_2->addWidget(th4);
+        scrollArea1_4 = new QScrollArea(th4);
+        scrollArea1_4->setObjectName("scrollArea1_4");
+        scrollArea1_4->setGeometry(QRect(0, 0, 461, 271));
+        scrollArea1_4->setWidgetResizable(true);
+        scrollAreaWidgetContents1_4 = new QWidget();
+        scrollAreaWidgetContents1_4->setObjectName("scrollAreaWidgetContents1_4");
+        scrollAreaWidgetContents1_4->setGeometry(QRect(0, 0, 98, 300));
+        verticalLayout_8 = new QVBoxLayout(scrollAreaWidgetContents1_4);
+        verticalLayout_8->setObjectName("verticalLayout_8");
+        testButT_4_2 = new QPushButton(scrollAreaWidgetContents1_4);
+        testButT_4_2->setObjectName("testButT_4_2");
+        testButT_4_2->setMinimumSize(QSize(0, 90));
+
+        verticalLayout_8->addWidget(testButT_4_2);
+
+        testButT_4_1 = new QPushButton(scrollAreaWidgetContents1_4);
+        testButT_4_1->setObjectName("testButT_4_1");
+        testButT_4_1->setMinimumSize(QSize(0, 90));
+
+        verticalLayout_8->addWidget(testButT_4_1);
+
+        testButT_4_3 = new QPushButton(scrollAreaWidgetContents1_4);
+        testButT_4_3->setObjectName("testButT_4_3");
+        testButT_4_3->setMinimumSize(QSize(0, 90));
+
+        verticalLayout_8->addWidget(testButT_4_3);
+
+        scrollArea1_4->setWidget(scrollAreaWidgetContents1_4);
+        oneTestButtons->addWidget(th4);
         th5 = new QWidget();
         th5->setObjectName("th5");
-        scrollArea5 = new QScrollArea(th5);
-        scrollArea5->setObjectName("scrollArea5");
-        scrollArea5->setGeometry(QRect(0, 0, 471, 271));
-        scrollArea5->setWidgetResizable(true);
-        scrollAreaWidgetContents5 = new QWidget();
-        scrollAreaWidgetContents5->setObjectName("scrollAreaWidgetContents5");
-        scrollAreaWidgetContents5->setGeometry(QRect(0, 0, 469, 269));
-        scrollArea5->setWidget(scrollAreaWidgetContents5);
-        stackedWidget_2->addWidget(th5);
+        scrollArea1_5 = new QScrollArea(th5);
+        scrollArea1_5->setObjectName("scrollArea1_5");
+        scrollArea1_5->setGeometry(QRect(0, 0, 461, 271));
+        scrollArea1_5->setWidgetResizable(true);
+        scrollAreaWidgetContents1_6 = new QWidget();
+        scrollAreaWidgetContents1_6->setObjectName("scrollAreaWidgetContents1_6");
+        scrollAreaWidgetContents1_6->setGeometry(QRect(0, 0, 98, 300));
+        verticalLayout_10 = new QVBoxLayout(scrollAreaWidgetContents1_6);
+        verticalLayout_10->setObjectName("verticalLayout_10");
+        testButT_5_1 = new QPushButton(scrollAreaWidgetContents1_6);
+        testButT_5_1->setObjectName("testButT_5_1");
+        testButT_5_1->setMinimumSize(QSize(0, 90));
+
+        verticalLayout_10->addWidget(testButT_5_1);
+
+        testButT_5_2 = new QPushButton(scrollAreaWidgetContents1_6);
+        testButT_5_2->setObjectName("testButT_5_2");
+        testButT_5_2->setMinimumSize(QSize(0, 90));
+
+        verticalLayout_10->addWidget(testButT_5_2);
+
+        testButT_5_3 = new QPushButton(scrollAreaWidgetContents1_6);
+        testButT_5_3->setObjectName("testButT_5_3");
+        testButT_5_3->setMinimumSize(QSize(0, 90));
+
+        verticalLayout_10->addWidget(testButT_5_3);
+
+        scrollArea1_5->setWidget(scrollAreaWidgetContents1_6);
+        oneTestButtons->addWidget(th5);
         th6 = new QWidget();
         th6->setObjectName("th6");
-        scrollArea6 = new QScrollArea(th6);
-        scrollArea6->setObjectName("scrollArea6");
-        scrollArea6->setGeometry(QRect(0, 0, 471, 271));
-        scrollArea6->setWidgetResizable(true);
-        scrollAreaWidgetContents6 = new QWidget();
-        scrollAreaWidgetContents6->setObjectName("scrollAreaWidgetContents6");
-        scrollAreaWidgetContents6->setGeometry(QRect(0, 0, 469, 269));
-        scrollArea6->setWidget(scrollAreaWidgetContents6);
-        stackedWidget_2->addWidget(th6);
+        scrollArea1_6 = new QScrollArea(th6);
+        scrollArea1_6->setObjectName("scrollArea1_6");
+        scrollArea1_6->setGeometry(QRect(0, 0, 461, 271));
+        scrollArea1_6->setWidgetResizable(true);
+        scrollAreaWidgetContents1_7 = new QWidget();
+        scrollAreaWidgetContents1_7->setObjectName("scrollAreaWidgetContents1_7");
+        scrollAreaWidgetContents1_7->setGeometry(QRect(0, 0, 98, 300));
+        verticalLayout_11 = new QVBoxLayout(scrollAreaWidgetContents1_7);
+        verticalLayout_11->setObjectName("verticalLayout_11");
+        testButT_6_1 = new QPushButton(scrollAreaWidgetContents1_7);
+        testButT_6_1->setObjectName("testButT_6_1");
+        testButT_6_1->setMinimumSize(QSize(0, 90));
+
+        verticalLayout_11->addWidget(testButT_6_1);
+
+        testButT_6_2 = new QPushButton(scrollAreaWidgetContents1_7);
+        testButT_6_2->setObjectName("testButT_6_2");
+        testButT_6_2->setMinimumSize(QSize(0, 90));
+
+        verticalLayout_11->addWidget(testButT_6_2);
+
+        testButT_6_3 = new QPushButton(scrollAreaWidgetContents1_7);
+        testButT_6_3->setObjectName("testButT_6_3");
+        testButT_6_3->setMinimumSize(QSize(0, 90));
+
+        verticalLayout_11->addWidget(testButT_6_3);
+
+        scrollArea1_6->setWidget(scrollAreaWidgetContents1_7);
+        oneTestButtons->addWidget(th6);
         th7 = new QWidget();
         th7->setObjectName("th7");
-        scrollArea7 = new QScrollArea(th7);
-        scrollArea7->setObjectName("scrollArea7");
-        scrollArea7->setGeometry(QRect(0, 0, 471, 271));
-        scrollArea7->setWidgetResizable(true);
-        scrollAreaWidgetContents7 = new QWidget();
-        scrollAreaWidgetContents7->setObjectName("scrollAreaWidgetContents7");
-        scrollAreaWidgetContents7->setGeometry(QRect(0, 0, 469, 269));
-        scrollArea7->setWidget(scrollAreaWidgetContents7);
-        stackedWidget_2->addWidget(th7);
+        scrollArea1_7 = new QScrollArea(th7);
+        scrollArea1_7->setObjectName("scrollArea1_7");
+        scrollArea1_7->setGeometry(QRect(0, 0, 461, 271));
+        scrollArea1_7->setWidgetResizable(true);
+        scrollAreaWidgetContents1_8 = new QWidget();
+        scrollAreaWidgetContents1_8->setObjectName("scrollAreaWidgetContents1_8");
+        scrollAreaWidgetContents1_8->setGeometry(QRect(0, 0, 98, 300));
+        verticalLayout_12 = new QVBoxLayout(scrollAreaWidgetContents1_8);
+        verticalLayout_12->setObjectName("verticalLayout_12");
+        testButT_7_2 = new QPushButton(scrollAreaWidgetContents1_8);
+        testButT_7_2->setObjectName("testButT_7_2");
+        testButT_7_2->setMinimumSize(QSize(0, 90));
+
+        verticalLayout_12->addWidget(testButT_7_2);
+
+        testButT_7_1 = new QPushButton(scrollAreaWidgetContents1_8);
+        testButT_7_1->setObjectName("testButT_7_1");
+        testButT_7_1->setMinimumSize(QSize(0, 90));
+
+        verticalLayout_12->addWidget(testButT_7_1);
+
+        testButT_7_3 = new QPushButton(scrollAreaWidgetContents1_8);
+        testButT_7_3->setObjectName("testButT_7_3");
+        testButT_7_3->setMinimumSize(QSize(0, 90));
+
+        verticalLayout_12->addWidget(testButT_7_3);
+
+        scrollArea1_7->setWidget(scrollAreaWidgetContents1_8);
+        oneTestButtons->addWidget(th7);
         th8 = new QWidget();
         th8->setObjectName("th8");
-        scrollArea8 = new QScrollArea(th8);
-        scrollArea8->setObjectName("scrollArea8");
-        scrollArea8->setGeometry(QRect(0, 0, 471, 271));
-        scrollArea8->setWidgetResizable(true);
-        scrollAreaWidgetContents8 = new QWidget();
-        scrollAreaWidgetContents8->setObjectName("scrollAreaWidgetContents8");
-        scrollAreaWidgetContents8->setGeometry(QRect(0, 0, 469, 269));
-        scrollArea8->setWidget(scrollAreaWidgetContents8);
-        stackedWidget_2->addWidget(th8);
+        scrollArea1_8 = new QScrollArea(th8);
+        scrollArea1_8->setObjectName("scrollArea1_8");
+        scrollArea1_8->setGeometry(QRect(0, 0, 461, 271));
+        scrollArea1_8->setWidgetResizable(true);
+        scrollAreaWidgetContents1_9 = new QWidget();
+        scrollAreaWidgetContents1_9->setObjectName("scrollAreaWidgetContents1_9");
+        scrollAreaWidgetContents1_9->setGeometry(QRect(0, 0, 445, 300));
+        verticalLayout_13 = new QVBoxLayout(scrollAreaWidgetContents1_9);
+        verticalLayout_13->setObjectName("verticalLayout_13");
+        testButT_8_1 = new QPushButton(scrollAreaWidgetContents1_9);
+        testButT_8_1->setObjectName("testButT_8_1");
+        testButT_8_1->setMinimumSize(QSize(0, 90));
 
-        horizontalLayout_4->addWidget(stackedWidget_2);
+        verticalLayout_13->addWidget(testButT_8_1);
+
+        testButT_8_2 = new QPushButton(scrollAreaWidgetContents1_9);
+        testButT_8_2->setObjectName("testButT_8_2");
+        testButT_8_2->setMinimumSize(QSize(0, 90));
+
+        verticalLayout_13->addWidget(testButT_8_2);
+
+        testButT_8_3 = new QPushButton(scrollAreaWidgetContents1_9);
+        testButT_8_3->setObjectName("testButT_8_3");
+        testButT_8_3->setMinimumSize(QSize(0, 90));
+
+        verticalLayout_13->addWidget(testButT_8_3);
+
+        scrollArea1_8->setWidget(scrollAreaWidgetContents1_9);
+        oneTestButtons->addWidget(th8);
+
+        horizontalLayout_4->addWidget(oneTestButtons);
 
         verticalSpacer_2 = new QSpacerItem(12, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
 
@@ -364,15 +557,15 @@ public:
 
         horizontalLayout_2 = new QHBoxLayout();
         horizontalLayout_2->setObjectName("horizontalLayout_2");
-        frame = new QFrame(widget1);
-        frame->setObjectName("frame");
-        frame->setMinimumSize(QSize(460, 160));
-        frame->setMaximumSize(QSize(16777215, 16777215));
-        frame->setStyleSheet(QString::fromUtf8("background-color: rgb(45, 45, 45)"));
-        frame->setFrameShape(QFrame::Shape::StyledPanel);
-        frame->setFrameShadow(QFrame::Shadow::Raised);
+        info = new QFrame(layoutWidget2);
+        info->setObjectName("info");
+        info->setMinimumSize(QSize(460, 160));
+        info->setMaximumSize(QSize(16777215, 16777215));
+        info->setStyleSheet(QString::fromUtf8("background-color: rgb(45, 45, 45)"));
+        info->setFrameShape(QFrame::Shape::StyledPanel);
+        info->setFrameShadow(QFrame::Shadow::Raised);
 
-        horizontalLayout_2->addWidget(frame);
+        horizontalLayout_2->addWidget(info);
 
         verticalSpacer = new QSpacerItem(10, 40, QSizePolicy::Policy::Minimum, QSizePolicy::Policy::Expanding);
 
@@ -384,31 +577,106 @@ public:
 
         horizontalLayout->addLayout(verticalLayout_5);
 
-        main_all->addWidget(nothing);
-        theme_1_test1 = new QWidget();
-        theme_1_test1->setObjectName("theme_1_test1");
-        main_all->addWidget(theme_1_test1);
-        theme_2_test1 = new QWidget();
-        theme_2_test1->setObjectName("theme_2_test1");
-        main_all->addWidget(theme_2_test1);
-        theme_3_test1 = new QWidget();
-        theme_3_test1->setObjectName("theme_3_test1");
-        main_all->addWidget(theme_3_test1);
-        theme_4 = new QWidget();
-        theme_4->setObjectName("theme_4");
-        main_all->addWidget(theme_4);
-        theme_6 = new QWidget();
-        theme_6->setObjectName("theme_6");
-        main_all->addWidget(theme_6);
-        theme_5 = new QWidget();
-        theme_5->setObjectName("theme_5");
-        main_all->addWidget(theme_5);
-        theme_7 = new QWidget();
-        theme_7->setObjectName("theme_7");
-        main_all->addWidget(theme_7);
-        theme_8 = new QWidget();
-        theme_8->setObjectName("theme_8");
-        main_all->addWidget(theme_8);
+        main_all->addWidget(allbuttons);
+        theme_1_test_1 = new QWidget();
+        theme_1_test_1->setObjectName("theme_1_test_1");
+        questions_1_1 = new QStackedWidget(theme_1_test_1);
+        questions_1_1->setObjectName("questions_1_1");
+        questions_1_1->setGeometry(QRect(-1, -1, 841, 481));
+        first_1_1 = new QWidget();
+        first_1_1->setObjectName("first_1_1");
+        questions_1_1->addWidget(first_1_1);
+        second_1_1 = new QWidget();
+        second_1_1->setObjectName("second_1_1");
+        questions_1_1->addWidget(second_1_1);
+        main_all->addWidget(theme_1_test_1);
+        theme_2_test_1 = new QWidget();
+        theme_2_test_1->setObjectName("theme_2_test_1");
+        questions_2_1 = new QStackedWidget(theme_2_test_1);
+        questions_2_1->setObjectName("questions_2_1");
+        questions_2_1->setGeometry(QRect(0, 0, 841, 481));
+        first_2_1 = new QWidget();
+        first_2_1->setObjectName("first_2_1");
+        questions_2_1->addWidget(first_2_1);
+        second_2_1 = new QWidget();
+        second_2_1->setObjectName("second_2_1");
+        questions_2_1->addWidget(second_2_1);
+        main_all->addWidget(theme_2_test_1);
+        theme_3_test_1 = new QWidget();
+        theme_3_test_1->setObjectName("theme_3_test_1");
+        questions_3_1 = new QStackedWidget(theme_3_test_1);
+        questions_3_1->setObjectName("questions_3_1");
+        questions_3_1->setGeometry(QRect(0, 0, 841, 481));
+        first_3_1 = new QWidget();
+        first_3_1->setObjectName("first_3_1");
+        questions_3_1->addWidget(first_3_1);
+        second_3_1 = new QWidget();
+        second_3_1->setObjectName("second_3_1");
+        questions_3_1->addWidget(second_3_1);
+        main_all->addWidget(theme_3_test_1);
+        theme_4_test_1 = new QWidget();
+        theme_4_test_1->setObjectName("theme_4_test_1");
+        questions_4_1 = new QStackedWidget(theme_4_test_1);
+        questions_4_1->setObjectName("questions_4_1");
+        questions_4_1->setGeometry(QRect(0, 0, 841, 481));
+        first_4_1 = new QWidget();
+        first_4_1->setObjectName("first_4_1");
+        questions_4_1->addWidget(first_4_1);
+        second_4_1 = new QWidget();
+        second_4_1->setObjectName("second_4_1");
+        questions_4_1->addWidget(second_4_1);
+        main_all->addWidget(theme_4_test_1);
+        theme_6_test_1 = new QWidget();
+        theme_6_test_1->setObjectName("theme_6_test_1");
+        questions_6_1 = new QStackedWidget(theme_6_test_1);
+        questions_6_1->setObjectName("questions_6_1");
+        questions_6_1->setGeometry(QRect(0, 0, 841, 481));
+        first_6_1 = new QWidget();
+        first_6_1->setObjectName("first_6_1");
+        questions_6_1->addWidget(first_6_1);
+        second_6_1 = new QWidget();
+        second_6_1->setObjectName("second_6_1");
+        questions_6_1->addWidget(second_6_1);
+        main_all->addWidget(theme_6_test_1);
+        theme_5_test_1 = new QWidget();
+        theme_5_test_1->setObjectName("theme_5_test_1");
+        questions_5_1 = new QStackedWidget(theme_5_test_1);
+        questions_5_1->setObjectName("questions_5_1");
+        questions_5_1->setGeometry(QRect(0, 0, 841, 481));
+        first_5_1 = new QWidget();
+        first_5_1->setObjectName("first_5_1");
+        questions_5_1->addWidget(first_5_1);
+        second_5_1 = new QWidget();
+        second_5_1->setObjectName("second_5_1");
+        questions_5_1->addWidget(second_5_1);
+        main_all->addWidget(theme_5_test_1);
+        theme_7_test_1 = new QWidget();
+        theme_7_test_1->setObjectName("theme_7_test_1");
+        questions_7_1 = new QStackedWidget(theme_7_test_1);
+        questions_7_1->setObjectName("questions_7_1");
+        questions_7_1->setGeometry(QRect(10, 0, 841, 481));
+        first_7_1 = new QWidget();
+        first_7_1->setObjectName("first_7_1");
+        questions_7_1->addWidget(first_7_1);
+        second_7_1 = new QWidget();
+        second_7_1->setObjectName("second_7_1");
+        questions_7_1->addWidget(second_7_1);
+        main_all->addWidget(theme_7_test_1);
+        theme_8_test_1 = new QWidget();
+        theme_8_test_1->setObjectName("theme_8_test_1");
+        questions_8_1 = new QStackedWidget(theme_8_test_1);
+        questions_8_1->setObjectName("questions_8_1");
+        questions_8_1->setGeometry(QRect(0, 0, 841, 481));
+        first_8_1 = new QWidget();
+        first_8_1->setObjectName("first_8_1");
+        questions_8_1->addWidget(first_8_1);
+        second_8_1 = new QWidget();
+        second_8_1->setObjectName("second_8_1");
+        questions_8_1->addWidget(second_8_1);
+        theEnd_8_1 = new QWidget();
+        theEnd_8_1->setObjectName("theEnd_8_1");
+        questions_8_1->addWidget(theEnd_8_1);
+        main_all->addWidget(theme_8_test_1);
 
         verticalLayout->addWidget(main_all);
 
@@ -419,7 +687,7 @@ public:
         butt1->setDefault(false);
         butt2->setDefault(false);
         butt3->setDefault(false);
-        stackedWidget_2->setCurrentIndex(7);
+        oneTestButtons->setCurrentIndex(7);
 
 
         QMetaObject::connectSlotsByName(tests);
@@ -439,9 +707,30 @@ public:
         butt6->setText(QCoreApplication::translate("tests", "\320\242\320\265\320\274\320\260 6. \320\241\321\200\320\265\320\264\321\201\321\202\320\262\320\260 \320\276\321\200\320\263\320\260\320\275\320\270\320\267\320\260\321\206\320\270\320\270 \321\200\320\260\320\261\320\276\321\202\321\213 \320\262 \321\201\320\265\321\202\320\270", nullptr));
         butt7->setText(QCoreApplication::translate("tests", "\320\242\320\265\320\274\320\260 7. \320\240\320\260\320\261\320\276\321\202\320\260 \321\201 \320\241\320\227\320\230", nullptr));
         butt8->setText(QCoreApplication::translate("tests", "\320\242\320\265\320\274\320\260 8. \320\241\320\270\321\201\321\202\320\265\320\274\320\260 \321\203\320\277\321\200\320\260\320\262\320\273\320\265\320\275\320\270\321\217 \320\261\320\260\320\267\320\260\320\274\320\270 \320\264\320\260\320\275\320\275\321\213\321\205", nullptr));
-        pushButton->setText(QCoreApplication::translate("tests", "\320\242\320\265\321\201\321\202 1", nullptr));
-        pushButton_2->setText(QCoreApplication::translate("tests", "\320\242\320\265\321\201\321\202 2", nullptr));
-        pushButton_3->setText(QCoreApplication::translate("tests", "PushButton", nullptr));
+        testButT_1_1->setText(QCoreApplication::translate("tests", "\320\242\320\265\321\201\321\202 1", nullptr));
+        testButT_1_2->setText(QCoreApplication::translate("tests", "\320\242\320\265\321\201\321\202 2", nullptr));
+        testButT_1_3->setText(QCoreApplication::translate("tests", "\320\242\320\265\321\201\321\202 3", nullptr));
+        testButT_2_1->setText(QCoreApplication::translate("tests", "\320\242\320\265\321\201\321\202 1", nullptr));
+        testButT_2_2->setText(QCoreApplication::translate("tests", "\320\242\320\265\321\201\321\202 2", nullptr));
+        testButT_2_3->setText(QCoreApplication::translate("tests", "\320\242\320\265\321\201\321\202 3", nullptr));
+        testButT_3_1->setText(QCoreApplication::translate("tests", "\320\242\320\265\321\201\321\202 1", nullptr));
+        testButT_3_2->setText(QCoreApplication::translate("tests", "\320\242\320\265\321\201\321\202 2", nullptr));
+        testButT_3_3->setText(QCoreApplication::translate("tests", "\320\242\320\265\321\201\321\202 3", nullptr));
+        testButT_4_2->setText(QCoreApplication::translate("tests", "\320\242\320\265\321\201\321\202 1", nullptr));
+        testButT_4_1->setText(QCoreApplication::translate("tests", "\320\242\320\265\321\201\321\202 2", nullptr));
+        testButT_4_3->setText(QCoreApplication::translate("tests", "\320\242\320\265\321\201\321\202 3", nullptr));
+        testButT_5_1->setText(QCoreApplication::translate("tests", "\320\242\320\265\321\201\321\202 1", nullptr));
+        testButT_5_2->setText(QCoreApplication::translate("tests", "\320\242\320\265\321\201\321\202 2", nullptr));
+        testButT_5_3->setText(QCoreApplication::translate("tests", "\320\242\320\265\321\201\321\202 3", nullptr));
+        testButT_6_1->setText(QCoreApplication::translate("tests", "\320\242\320\265\321\201\321\202 1", nullptr));
+        testButT_6_2->setText(QCoreApplication::translate("tests", "\320\242\320\265\321\201\321\202 2", nullptr));
+        testButT_6_3->setText(QCoreApplication::translate("tests", "\320\242\320\265\321\201\321\202 3", nullptr));
+        testButT_7_2->setText(QCoreApplication::translate("tests", "\320\242\320\265\321\201\321\202 1", nullptr));
+        testButT_7_1->setText(QCoreApplication::translate("tests", "\320\242\320\265\321\201\321\202 2", nullptr));
+        testButT_7_3->setText(QCoreApplication::translate("tests", "\320\242\320\265\321\201\321\202 3", nullptr));
+        testButT_8_1->setText(QCoreApplication::translate("tests", "\320\242\320\265\321\201\321\202 1", nullptr));
+        testButT_8_2->setText(QCoreApplication::translate("tests", "\320\242\320\265\321\201\321\202 2", nullptr));
+        testButT_8_3->setText(QCoreApplication::translate("tests", "\320\242\320\265\321\201\321\202 3", nullptr));
     } // retranslateUi
 
 };

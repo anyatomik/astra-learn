@@ -6831,7 +6831,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/usr/local"
+			"value" : "/tmp"
 		},
 		{
 			"name" : "__pkg_config_checked_PKG_XKB",

@@ -7,5 +7,15 @@
         <file>img/pin1.png</file>
         <file>img/pin2.png</file>
         <file>img/back.png</file>
+        <file>img/left.png</file>
+        <file>img/right.png</file>
+    </qresource>
+    <qresource prefix="/new/learn">
+        <file>img/logoNewAL.png</file>
+        <file>img/Screenshot_20250522_091811.png</file>
+        <file>img/Screenshot_20250522_091723 (1) (1).png</file>
+        <file>img/Screenshot_20250522_091723 (2).png</file>
+        <file>img/Emblem_of_Ministry_of_Health_of_Russia.svg.png</file>
+        <file>img/Emblem_of_Ministry_of_Health_of_.png</file>
     </qresource>
 </RCC>

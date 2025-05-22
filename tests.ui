@@ -152,7 +152,7 @@
       <property name="currentIndex">
        <number>0</number>
       </property>
-      <widget class="QWidget" name="nothing">
+      <widget class="QWidget" name="allbuttons">
        <widget class="QWidget" name="layoutWidget">
         <property name="geometry">
          <rect>
@@ -164,7 +164,7 @@
         </property>
         <layout class="QHBoxLayout" name="horizontalLayout">
          <item>
-          <widget class="QScrollArea" name="scrollArea">
+          <widget class="QScrollArea" name="allTestButtons">
            <property name="minimumSize">
             <size>
              <width>355</width>
@@ -349,7 +349,7 @@
            <item>
             <layout class="QHBoxLayout" name="horizontalLayout_4">
              <item>
-              <widget class="QStackedWidget" name="but_for_test">
+              <widget class="QStackedWidget" name="oneTestButtons">
                <property name="minimumSize">
                 <size>
                  <width>465</width>
@@ -357,7 +357,7 @@
                 </size>
                </property>
                <property name="currentIndex">
-                <number>0</number>
+                <number>7</number>
                </property>
                <widget class="QWidget" name="th1">
                 <widget class="QScrollArea" name="scrollArea1">
@@ -376,14 +376,14 @@
                   <property name="geometry">
                    <rect>
                     <x>0</x>
-                    <y>-31</y>
-                    <width>445</width>
+                    <y>0</y>
+                    <width>98</width>
                     <height>300</height>
                    </rect>
                   </property>
                   <layout class="QVBoxLayout" name="verticalLayout_4">
                    <item>
-                    <widget class="QPushButton" name="pushButton">
+                    <widget class="QPushButton" name="testButT_1_1">
                      <property name="minimumSize">
                       <size>
                        <width>0</width>
@@ -396,7 +396,7 @@
                     </widget>
                    </item>
                    <item>
-                    <widget class="QPushButton" name="pushButton_2">
+                    <widget class="QPushButton" name="testButT_1_2">
                      <property name="minimumSize">
                       <size>
                        <width>0</width>
@@ -409,7 +409,7 @@
                     </widget>
                    </item>
                    <item>
-                    <widget class="QPushButton" name="pushButton_3">
+                    <widget class="QPushButton" name="testButT_1_3">
                      <property name="minimumSize">
                       <size>
                        <width>0</width>
@@ -425,13 +425,468 @@
                  </widget>
                 </widget>
                </widget>
-               <widget class="QWidget" name="th2"/>
-               <widget class="QWidget" name="th3"/>
-               <widget class="QWidget" name="th4"/>
-               <widget class="QWidget" name="th5"/>
-               <widget class="QWidget" name="th6"/>
-               <widget class="QWidget" name="th7"/>
-               <widget class="QWidget" name="th8"/>
+               <widget class="QWidget" name="th2">
+                <widget class="QScrollArea" name="scrollArea1_2">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>461</width>
+                   <height>271</height>
+                  </rect>
+                 </property>
+                 <property name="widgetResizable">
+                  <bool>true</bool>
+                 </property>
+                 <widget class="QWidget" name="scrollAreaWidgetContents1_2">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>98</width>
+                    <height>300</height>
+                   </rect>
+                  </property>
+                  <layout class="QVBoxLayout" name="verticalLayout_6">
+                   <item>
+                    <widget class="QPushButton" name="testButT_2_1">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>90</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Тест 1</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="testButT_2_2">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>90</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Тест 2</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="testButT_2_3">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>90</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Тест 3</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+               </widget>
+               <widget class="QWidget" name="th3">
+                <widget class="QScrollArea" name="scrollArea1_3">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>461</width>
+                   <height>271</height>
+                  </rect>
+                 </property>
+                 <property name="widgetResizable">
+                  <bool>true</bool>
+                 </property>
+                 <widget class="QWidget" name="scrollAreaWidgetContents1_3">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>98</width>
+                    <height>300</height>
+                   </rect>
+                  </property>
+                  <layout class="QVBoxLayout" name="verticalLayout_7">
+                   <item>
+                    <widget class="QPushButton" name="testButT_3_1">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>90</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Тест 1</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="testButT_3_2">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>90</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Тест 2</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="testButT_3_3">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>90</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Тест 3</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+               </widget>
+               <widget class="QWidget" name="th4">
+                <widget class="QScrollArea" name="scrollArea1_4">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>461</width>
+                   <height>271</height>
+                  </rect>
+                 </property>
+                 <property name="widgetResizable">
+                  <bool>true</bool>
+                 </property>
+                 <widget class="QWidget" name="scrollAreaWidgetContents1_4">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>98</width>
+                    <height>300</height>
+                   </rect>
+                  </property>
+                  <layout class="QVBoxLayout" name="verticalLayout_8">
+                   <item>
+                    <widget class="QPushButton" name="testButT_4_2">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>90</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Тест 1</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="testButT_4_1">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>90</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Тест 2</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="testButT_4_3">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>90</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Тест 3</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+               </widget>
+               <widget class="QWidget" name="th5">
+                <widget class="QScrollArea" name="scrollArea1_5">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>461</width>
+                   <height>271</height>
+                  </rect>
+                 </property>
+                 <property name="widgetResizable">
+                  <bool>true</bool>
+                 </property>
+                 <widget class="QWidget" name="scrollAreaWidgetContents1_6">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>98</width>
+                    <height>300</height>
+                   </rect>
+                  </property>
+                  <layout class="QVBoxLayout" name="verticalLayout_10">
+                   <item>
+                    <widget class="QPushButton" name="testButT_5_1">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>90</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Тест 1</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="testButT_5_2">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>90</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Тест 2</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="testButT_5_3">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>90</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Тест 3</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+               </widget>
+               <widget class="QWidget" name="th6">
+                <widget class="QScrollArea" name="scrollArea1_6">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>461</width>
+                   <height>271</height>
+                  </rect>
+                 </property>
+                 <property name="widgetResizable">
+                  <bool>true</bool>
+                 </property>
+                 <widget class="QWidget" name="scrollAreaWidgetContents1_7">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>98</width>
+                    <height>300</height>
+                   </rect>
+                  </property>
+                  <layout class="QVBoxLayout" name="verticalLayout_11">
+                   <item>
+                    <widget class="QPushButton" name="testButT_6_1">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>90</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Тест 1</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="testButT_6_2">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>90</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Тест 2</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="testButT_6_3">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>90</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Тест 3</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+               </widget>
+               <widget class="QWidget" name="th7">
+                <widget class="QScrollArea" name="scrollArea1_7">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>461</width>
+                   <height>271</height>
+                  </rect>
+                 </property>
+                 <property name="widgetResizable">
+                  <bool>true</bool>
+                 </property>
+                 <widget class="QWidget" name="scrollAreaWidgetContents1_8">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>98</width>
+                    <height>300</height>
+                   </rect>
+                  </property>
+                  <layout class="QVBoxLayout" name="verticalLayout_12">
+                   <item>
+                    <widget class="QPushButton" name="testButT_7_2">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>90</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Тест 1</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="testButT_7_1">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>90</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Тест 2</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="testButT_7_3">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>90</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Тест 3</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+               </widget>
+               <widget class="QWidget" name="th8">
+                <widget class="QScrollArea" name="scrollArea1_8">
+                 <property name="geometry">
+                  <rect>
+                   <x>0</x>
+                   <y>0</y>
+                   <width>461</width>
+                   <height>271</height>
+                  </rect>
+                 </property>
+                 <property name="widgetResizable">
+                  <bool>true</bool>
+                 </property>
+                 <widget class="QWidget" name="scrollAreaWidgetContents1_9">
+                  <property name="geometry">
+                   <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>445</width>
+                    <height>300</height>
+                   </rect>
+                  </property>
+                  <layout class="QVBoxLayout" name="verticalLayout_13">
+                   <item>
+                    <widget class="QPushButton" name="testButT_8_1">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>90</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Тест 1</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="testButT_8_2">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>90</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Тест 2</string>
+                     </property>
+                    </widget>
+                   </item>
+                   <item>
+                    <widget class="QPushButton" name="testButT_8_3">
+                     <property name="minimumSize">
+                      <size>
+                       <width>0</width>
+                       <height>90</height>
+                      </size>
+                     </property>
+                     <property name="text">
+                      <string>Тест 3</string>
+                     </property>
+                    </widget>
+                   </item>
+                  </layout>
+                 </widget>
+                </widget>
+               </widget>
               </widget>
              </item>
              <item>
@@ -499,14 +954,119 @@
         </layout>
        </widget>
       </widget>
-      <widget class="QWidget" name="theme_1_test1"/>
-      <widget class="QWidget" name="theme_2_test1"/>
-      <widget class="QWidget" name="theme_3_test1"/>
-      <widget class="QWidget" name="theme_4"/>
-      <widget class="QWidget" name="theme_6"/>
-      <widget class="QWidget" name="theme_5"/>
-      <widget class="QWidget" name="theme_7"/>
-      <widget class="QWidget" name="theme_8"/>
+      <widget class="QWidget" name="theme_1_test_1">
+       <widget class="QStackedWidget" name="questions_1_1">
+        <property name="geometry">
+         <rect>
+          <x>-1</x>
+          <y>-1</y>
+          <width>841</width>
+          <height>481</height>
+         </rect>
+        </property>
+        <widget class="QWidget" name="first_1_1"/>
+        <widget class="QWidget" name="second_1_1"/>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="theme_2_test_1">
+       <widget class="QStackedWidget" name="questions_2_1">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>841</width>
+          <height>481</height>
+         </rect>
+        </property>
+        <widget class="QWidget" name="first_2_1"/>
+        <widget class="QWidget" name="second_2_1"/>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="theme_3_test_1">
+       <widget class="QStackedWidget" name="questions_3_1">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>841</width>
+          <height>481</height>
+         </rect>
+        </property>
+        <widget class="QWidget" name="first_3_1"/>
+        <widget class="QWidget" name="second_3_1"/>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="theme_4_test_1">
+       <widget class="QStackedWidget" name="questions_4_1">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>841</width>
+          <height>481</height>
+         </rect>
+        </property>
+        <widget class="QWidget" name="first_4_1"/>
+        <widget class="QWidget" name="second_4_1"/>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="theme_6_test_1">
+       <widget class="QStackedWidget" name="questions_6_1">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>841</width>
+          <height>481</height>
+         </rect>
+        </property>
+        <widget class="QWidget" name="first_6_1"/>
+        <widget class="QWidget" name="second_6_1"/>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="theme_5_test_1">
+       <widget class="QStackedWidget" name="questions_5_1">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>841</width>
+          <height>481</height>
+         </rect>
+        </property>
+        <widget class="QWidget" name="first_5_1"/>
+        <widget class="QWidget" name="second_5_1"/>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="theme_7_test_1">
+       <widget class="QStackedWidget" name="questions_7_1">
+        <property name="geometry">
+         <rect>
+          <x>10</x>
+          <y>0</y>
+          <width>841</width>
+          <height>481</height>
+         </rect>
+        </property>
+        <widget class="QWidget" name="first_7_1"/>
+        <widget class="QWidget" name="second_7_1"/>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="theme_8_test_1">
+       <widget class="QStackedWidget" name="questions_8_1">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>841</width>
+          <height>481</height>
+         </rect>
+        </property>
+        <widget class="QWidget" name="first_8_1"/>
+        <widget class="QWidget" name="second_8_1"/>
+        <widget class="QWidget" name="theEnd_8_1"/>
+       </widget>
+      </widget>
      </widget>
     </item>
    </layout>

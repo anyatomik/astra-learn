@@ -20,6 +20,7 @@
 #include <QtWidgets/QScrollArea>
 #include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QStackedWidget>
+#include <QtWidgets/QTextBrowser>
 #include <QtWidgets/QVBoxLayout>
 #include <QtWidgets/QWidget>
 
@@ -55,6 +56,8 @@ public:
     QComboBox *comboBox_7;
     QWidget *th8;
     QComboBox *comboBox_8;
+    QPushButton *right;
+    QPushButton *left;
     QStackedWidget *buttons;
     QWidget *main;
     QWidget *layoutWidget2;
@@ -83,13 +86,57 @@ public:
     QPushButton *butt8;
     QSpacerItem *horizontalSpacer_2;
     QWidget *page1;
+    QStackedWidget *pages_1;
+    QWidget *page_1_1;
+    QScrollArea *page_1_1_scr;
+    QWidget *scrollAreaWidgetContents_2;
+    QVBoxLayout *verticalLayout_4;
+    QTextBrowser *textBrowser;
+    QWidget *page_2_1;
+    QScrollArea *page_1_1_scr_2;
+    QWidget *scrollAreaWidgetContents_5;
+    QVBoxLayout *verticalLayout_6;
+    QTextBrowser *textBrowser_3;
+    QWidget *page_3_1;
+    QScrollArea *page_1_1_scr_3;
+    QWidget *scrollAreaWidgetContents_4;
+    QVBoxLayout *verticalLayout_5;
+    QTextBrowser *textBrowser_2;
     QWidget *page8;
+    QStackedWidget *pages_8;
+    QWidget *page_1_8;
+    QWidget *page_2_8;
+    QWidget *page_3_8;
     QWidget *page2;
+    QStackedWidget *pages_2;
+    QWidget *page_1_2;
+    QWidget *page_3_2;
+    QWidget *page_2_2;
     QWidget *page4;
+    QStackedWidget *pages_4;
+    QWidget *page_1_4;
+    QWidget *page_2_4;
+    QWidget *page_3_4;
     QWidget *page5;
+    QStackedWidget *pages_5;
+    QWidget *page_1_5;
+    QWidget *page_2_5;
+    QWidget *page_3_5;
     QWidget *page6;
+    QStackedWidget *pages_6;
+    QWidget *page_1_6;
+    QWidget *page_3_6;
+    QWidget *page_2_6;
     QWidget *page7;
+    QStackedWidget *pages_7;
+    QWidget *page_1_7;
+    QWidget *page_2_7;
+    QWidget *page_3_7;
     QWidget *page3;
+    QStackedWidget *pages_3;
+    QWidget *page_1_3;
+    QWidget *page_3_3;
+    QWidget *page_2_3;
 
     void setupUi(QWidget *learn)
     {
@@ -101,7 +148,7 @@ public:
         learn->setWindowIcon(icon);
         layoutWidget = new QWidget(learn);
         layoutWidget->setObjectName("layoutWidget");
-        layoutWidget->setGeometry(QRect(0, 0, 831, 588));
+        layoutWidget->setGeometry(QRect(0, 0, 831, 583));
         verticalLayout_3 = new QVBoxLayout(layoutWidget);
         verticalLayout_3->setObjectName("verticalLayout_3");
         verticalLayout_3->setContentsMargins(0, 0, 0, 0);
@@ -163,7 +210,7 @@ public:
 
         page_buttons = new QStackedWidget(menu);
         page_buttons->setObjectName("page_buttons");
-        page_buttons->setGeometry(QRect(590, 0, 111, 31));
+        page_buttons->setGeometry(QRect(550, 0, 101, 31));
         main_2 = new QWidget();
         main_2->setObjectName("main_2");
         page_buttons->addWidget(main_2);
@@ -174,7 +221,8 @@ public:
         comboBox->addItem(QString());
         comboBox->addItem(QString());
         comboBox->setObjectName("comboBox");
-        comboBox->setGeometry(QRect(10, 0, 101, 28));
+        comboBox->setGeometry(QRect(0, 0, 101, 28));
+        comboBox->setLayoutDirection(Qt::LayoutDirection::LeftToRight);
         page_buttons->addWidget(th1);
         th2 = new QWidget();
         th2->setObjectName("th2");
@@ -183,7 +231,7 @@ public:
         comboBox_2->addItem(QString());
         comboBox_2->addItem(QString());
         comboBox_2->setObjectName("comboBox_2");
-        comboBox_2->setGeometry(QRect(10, 0, 101, 28));
+        comboBox_2->setGeometry(QRect(0, 0, 101, 28));
         page_buttons->addWidget(th2);
         th3 = new QWidget();
         th3->setObjectName("th3");
@@ -192,7 +240,7 @@ public:
         comboBox_3->addItem(QString());
         comboBox_3->addItem(QString());
         comboBox_3->setObjectName("comboBox_3");
-        comboBox_3->setGeometry(QRect(10, 0, 101, 28));
+        comboBox_3->setGeometry(QRect(0, 0, 101, 28));
         page_buttons->addWidget(th3);
         th4 = new QWidget();
         th4->setObjectName("th4");
@@ -201,7 +249,7 @@ public:
         comboBox_4->addItem(QString());
         comboBox_4->addItem(QString());
         comboBox_4->setObjectName("comboBox_4");
-        comboBox_4->setGeometry(QRect(10, 0, 101, 28));
+        comboBox_4->setGeometry(QRect(0, 0, 101, 28));
         page_buttons->addWidget(th4);
         th5 = new QWidget();
         th5->setObjectName("th5");
@@ -210,7 +258,7 @@ public:
         comboBox_5->addItem(QString());
         comboBox_5->addItem(QString());
         comboBox_5->setObjectName("comboBox_5");
-        comboBox_5->setGeometry(QRect(10, 0, 101, 28));
+        comboBox_5->setGeometry(QRect(0, 0, 101, 28));
         page_buttons->addWidget(th5);
         th6 = new QWidget();
         th6->setObjectName("th6");
@@ -219,7 +267,7 @@ public:
         comboBox_6->addItem(QString());
         comboBox_6->addItem(QString());
         comboBox_6->setObjectName("comboBox_6");
-        comboBox_6->setGeometry(QRect(10, 0, 101, 28));
+        comboBox_6->setGeometry(QRect(0, 0, 101, 28));
         page_buttons->addWidget(th6);
         th7 = new QWidget();
         th7->setObjectName("th7");
@@ -228,7 +276,7 @@ public:
         comboBox_7->addItem(QString());
         comboBox_7->addItem(QString());
         comboBox_7->setObjectName("comboBox_7");
-        comboBox_7->setGeometry(QRect(10, 0, 101, 28));
+        comboBox_7->setGeometry(QRect(0, 0, 101, 28));
         page_buttons->addWidget(th7);
         th8 = new QWidget();
         th8->setObjectName("th8");
@@ -237,8 +285,22 @@ public:
         comboBox_8->addItem(QString());
         comboBox_8->addItem(QString());
         comboBox_8->setObjectName("comboBox_8");
-        comboBox_8->setGeometry(QRect(10, 0, 101, 28));
+        comboBox_8->setGeometry(QRect(0, 0, 101, 28));
         page_buttons->addWidget(th8);
+        right = new QPushButton(menu);
+        right->setObjectName("right");
+        right->setGeometry(QRect(660, 0, 31, 28));
+        QIcon icon4;
+        icon4.addFile(QString::fromUtf8(":/new/icons/img/right.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
+        right->setIcon(icon4);
+        right->setIconSize(QSize(20, 20));
+        left = new QPushButton(menu);
+        left->setObjectName("left");
+        left->setGeometry(QRect(510, 0, 31, 28));
+        QIcon icon5;
+        icon5.addFile(QString::fromUtf8(":/new/icons/img/left.png"), QSize(), QIcon::Mode::Normal, QIcon::State::Off);
+        left->setIcon(icon5);
+        left->setIconSize(QSize(20, 20));
 
         verticalLayout_3->addWidget(menu);
 
@@ -384,27 +446,168 @@ public:
         buttons->addWidget(main);
         page1 = new QWidget();
         page1->setObjectName("page1");
+        pages_1 = new QStackedWidget(page1);
+        pages_1->setObjectName("pages_1");
+        pages_1->setGeometry(QRect(-1, -1, 831, 491));
+        page_1_1 = new QWidget();
+        page_1_1->setObjectName("page_1_1");
+        page_1_1_scr = new QScrollArea(page_1_1);
+        page_1_1_scr->setObjectName("page_1_1_scr");
+        page_1_1_scr->setGeometry(QRect(-1, -1, 831, 491));
+        page_1_1_scr->setWidgetResizable(true);
+        scrollAreaWidgetContents_2 = new QWidget();
+        scrollAreaWidgetContents_2->setObjectName("scrollAreaWidgetContents_2");
+        scrollAreaWidgetContents_2->setGeometry(QRect(0, 0, 829, 489));
+        verticalLayout_4 = new QVBoxLayout(scrollAreaWidgetContents_2);
+        verticalLayout_4->setObjectName("verticalLayout_4");
+        textBrowser = new QTextBrowser(scrollAreaWidgetContents_2);
+        textBrowser->setObjectName("textBrowser");
+
+        verticalLayout_4->addWidget(textBrowser);
+
+        page_1_1_scr->setWidget(scrollAreaWidgetContents_2);
+        pages_1->addWidget(page_1_1);
+        page_2_1 = new QWidget();
+        page_2_1->setObjectName("page_2_1");
+        page_1_1_scr_2 = new QScrollArea(page_2_1);
+        page_1_1_scr_2->setObjectName("page_1_1_scr_2");
+        page_1_1_scr_2->setGeometry(QRect(-1, -1, 831, 491));
+        page_1_1_scr_2->setWidgetResizable(true);
+        scrollAreaWidgetContents_5 = new QWidget();
+        scrollAreaWidgetContents_5->setObjectName("scrollAreaWidgetContents_5");
+        scrollAreaWidgetContents_5->setGeometry(QRect(0, 0, 829, 489));
+        verticalLayout_6 = new QVBoxLayout(scrollAreaWidgetContents_5);
+        verticalLayout_6->setObjectName("verticalLayout_6");
+        textBrowser_3 = new QTextBrowser(scrollAreaWidgetContents_5);
+        textBrowser_3->setObjectName("textBrowser_3");
+
+        verticalLayout_6->addWidget(textBrowser_3);
+
+        page_1_1_scr_2->setWidget(scrollAreaWidgetContents_5);
+        pages_1->addWidget(page_2_1);
+        page_3_1 = new QWidget();
+        page_3_1->setObjectName("page_3_1");
+        page_1_1_scr_3 = new QScrollArea(page_3_1);
+        page_1_1_scr_3->setObjectName("page_1_1_scr_3");
+        page_1_1_scr_3->setGeometry(QRect(-1, -1, 831, 491));
+        page_1_1_scr_3->setWidgetResizable(true);
+        scrollAreaWidgetContents_4 = new QWidget();
+        scrollAreaWidgetContents_4->setObjectName("scrollAreaWidgetContents_4");
+        scrollAreaWidgetContents_4->setGeometry(QRect(0, 0, 829, 489));
+        verticalLayout_5 = new QVBoxLayout(scrollAreaWidgetContents_4);
+        verticalLayout_5->setObjectName("verticalLayout_5");
+        textBrowser_2 = new QTextBrowser(scrollAreaWidgetContents_4);
+        textBrowser_2->setObjectName("textBrowser_2");
+
+        verticalLayout_5->addWidget(textBrowser_2);
+
+        page_1_1_scr_3->setWidget(scrollAreaWidgetContents_4);
+        pages_1->addWidget(page_3_1);
         buttons->addWidget(page1);
         page8 = new QWidget();
         page8->setObjectName("page8");
+        pages_8 = new QStackedWidget(page8);
+        pages_8->setObjectName("pages_8");
+        pages_8->setGeometry(QRect(0, 0, 831, 501));
+        page_1_8 = new QWidget();
+        page_1_8->setObjectName("page_1_8");
+        pages_8->addWidget(page_1_8);
+        page_2_8 = new QWidget();
+        page_2_8->setObjectName("page_2_8");
+        pages_8->addWidget(page_2_8);
+        page_3_8 = new QWidget();
+        page_3_8->setObjectName("page_3_8");
+        pages_8->addWidget(page_3_8);
         buttons->addWidget(page8);
         page2 = new QWidget();
         page2->setObjectName("page2");
+        pages_2 = new QStackedWidget(page2);
+        pages_2->setObjectName("pages_2");
+        pages_2->setGeometry(QRect(0, 0, 831, 501));
+        page_1_2 = new QWidget();
+        page_1_2->setObjectName("page_1_2");
+        pages_2->addWidget(page_1_2);
+        page_3_2 = new QWidget();
+        page_3_2->setObjectName("page_3_2");
+        pages_2->addWidget(page_3_2);
+        page_2_2 = new QWidget();
+        page_2_2->setObjectName("page_2_2");
+        pages_2->addWidget(page_2_2);
         buttons->addWidget(page2);
         page4 = new QWidget();
         page4->setObjectName("page4");
+        pages_4 = new QStackedWidget(page4);
+        pages_4->setObjectName("pages_4");
+        pages_4->setGeometry(QRect(0, 0, 831, 501));
+        page_1_4 = new QWidget();
+        page_1_4->setObjectName("page_1_4");
+        pages_4->addWidget(page_1_4);
+        page_2_4 = new QWidget();
+        page_2_4->setObjectName("page_2_4");
+        pages_4->addWidget(page_2_4);
+        page_3_4 = new QWidget();
+        page_3_4->setObjectName("page_3_4");
+        pages_4->addWidget(page_3_4);
         buttons->addWidget(page4);
         page5 = new QWidget();
         page5->setObjectName("page5");
+        pages_5 = new QStackedWidget(page5);
+        pages_5->setObjectName("pages_5");
+        pages_5->setGeometry(QRect(0, 0, 831, 501));
+        page_1_5 = new QWidget();
+        page_1_5->setObjectName("page_1_5");
+        pages_5->addWidget(page_1_5);
+        page_2_5 = new QWidget();
+        page_2_5->setObjectName("page_2_5");
+        pages_5->addWidget(page_2_5);
+        page_3_5 = new QWidget();
+        page_3_5->setObjectName("page_3_5");
+        pages_5->addWidget(page_3_5);
         buttons->addWidget(page5);
         page6 = new QWidget();
         page6->setObjectName("page6");
+        pages_6 = new QStackedWidget(page6);
+        pages_6->setObjectName("pages_6");
+        pages_6->setGeometry(QRect(0, 0, 831, 501));
+        page_1_6 = new QWidget();
+        page_1_6->setObjectName("page_1_6");
+        pages_6->addWidget(page_1_6);
+        page_3_6 = new QWidget();
+        page_3_6->setObjectName("page_3_6");
+        pages_6->addWidget(page_3_6);
+        page_2_6 = new QWidget();
+        page_2_6->setObjectName("page_2_6");
+        pages_6->addWidget(page_2_6);
         buttons->addWidget(page6);
         page7 = new QWidget();
         page7->setObjectName("page7");
+        pages_7 = new QStackedWidget(page7);
+        pages_7->setObjectName("pages_7");
+        pages_7->setGeometry(QRect(0, 0, 831, 501));
+        page_1_7 = new QWidget();
+        page_1_7->setObjectName("page_1_7");
+        pages_7->addWidget(page_1_7);
+        page_2_7 = new QWidget();
+        page_2_7->setObjectName("page_2_7");
+        pages_7->addWidget(page_2_7);
+        page_3_7 = new QWidget();
+        page_3_7->setObjectName("page_3_7");
+        pages_7->addWidget(page_3_7);
         buttons->addWidget(page7);
         page3 = new QWidget();
         page3->setObjectName("page3");
+        pages_3 = new QStackedWidget(page3);
+        pages_3->setObjectName("pages_3");
+        pages_3->setGeometry(QRect(0, 0, 831, 501));
+        page_1_3 = new QWidget();
+        page_1_3->setObjectName("page_1_3");
+        pages_3->addWidget(page_1_3);
+        page_3_3 = new QWidget();
+        page_3_3->setObjectName("page_3_3");
+        pages_3->addWidget(page_3_3);
+        page_2_3 = new QWidget();
+        page_2_3->setObjectName("page_2_3");
+        pages_3->addWidget(page_2_3);
         buttons->addWidget(page3);
 
         verticalLayout_3->addWidget(buttons);
@@ -413,8 +616,8 @@ public:
         retranslateUi(learn);
 
         pins->setDefault(false);
-        page_buttons->setCurrentIndex(0);
-        buttons->setCurrentIndex(0);
+        page_buttons->setCurrentIndex(1);
+        buttons->setCurrentIndex(1);
         butt1->setDefault(false);
         butt2->setDefault(false);
         butt3->setDefault(false);
@@ -462,6 +665,8 @@ public:
         comboBox_8->setItemText(1, QCoreApplication::translate("learn", "\320\241\321\202\321\200\320\260\320\275\320\270\321\206\320\260 2", nullptr));
         comboBox_8->setItemText(2, QCoreApplication::translate("learn", "\320\241\321\202\321\200\320\260\320\275\320\270\321\206\320\260 3", nullptr));
 
+        right->setText(QString());
+        left->setText(QString());
         label->setText(QCoreApplication::translate("learn", "\320\227\320\260\320\272\320\273\320\260\320\264\320\272\320\270:", nullptr));
         label_2->setText(QString());
         GoToPin->setText(QCoreApplication::translate("learn", "\320\237\320\265\321\200\320\265\320\271\321\202\320\270 \320\272 \320\267\320\260\320\272\320\273\320\260\320\264\320\272\320\265", nullptr));
@@ -474,6 +679,68 @@ public:
         butt6->setText(QCoreApplication::translate("learn", "\320\242\320\265\320\274\320\260 6. \320\241\321\200\320\265\320\264\321\201\321\202\320\262\320\260 \320\276\321\200\320\263\320\260\320\275\320\270\320\267\320\260\321\206\320\270\320\270 \321\200\320\260\320\261\320\276\321\202\321\213 \320\262 \321\201\320\265\321\202\320\270", nullptr));
         butt7->setText(QCoreApplication::translate("learn", "\320\242\320\265\320\274\320\260 7. \320\240\320\260\320\261\320\276\321\202\320\260 \321\201 \320\241\320\227\320\230", nullptr));
         butt8->setText(QCoreApplication::translate("learn", "\320\242\320\265\320\274\320\260 8. \320\241\320\270\321\201\321\202\320\265\320\274\320\260 \321\203\320\277\321\200\320\260\320\262\320\273\320\265\320\275\320\270\321\217 \320\261\320\260\320\267\320\260\320\274\320\270 \320\264\320\260\320\275\320\275\321\213\321\205", nullptr));
+        textBrowser->setHtml(QCoreApplication::translate("learn", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:16pt; font-weight:700;\">\320\236\320\261\321\211\320\260\321\217 \320\270\320\275\321\204\320\276\321\200\320\274\320\260\321\206\320\270\321\217</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:16pt; font-weight:700;\"><br /></p>\n"
+"<p style=\" margin-top"
+                        ":0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt; font-weight:700;\">Astra Linux </span><span style=\" font-size:12pt;\">- \321\200\320\276\321\201\321\201\320\270\320\271\321\201\320\272\320\260\321\217 \320\276\320\277\320\265\321\200\320\260\321\206\320\270\320\276\320\275\320\275\320\260\321\217 \321\201\320\270\321\201\321\202\320\265\320\274\320\260, \321\200\320\260\320\267\321\200\320\260\320\261\320\260\321\202\321\213\320\262\320\260\320\265\320\274\320\260\321\217 \320\275\320\260 \320\261\320\260\320\267\320\265 \321\217\320\264\321\200\320\260 Linux, \320\275\320\260 \320\264\320\260\320\275\320\275\321\213\320\271 \320\274\320\276\320\274\320\265\320\275\321\202 \320\260\320\272\321\202\320\270\320\262\320\275\320\276 \320\262\320\275\320\265\320\264\321\200\321\217\320\265\321\202\321\201\321\217 \320\262 \320\263\320\276\321\201\321\203\320\264\320\260\321\200\321\201\321\202\320\262\320\265\320\275\320\275\320\275\321"
+                        "\213\320\265 \321\203\321\207\321\200\320\265\320\266\320\264\320\265\320\275\320\270\321\217. \320\230\321\201\321\202\320\276\321\200\320\270\321\217 \320\275\320\260\321\207\320\260\320\273\320\260 \321\200\320\260\320\267\321\200\320\260\320\261\320\276\321\202\320\272\320\270 \320\261\320\265\321\200\320\265\321\202 \320\275\320\260\321\207\320\260\320\273\320\276 \321\201 2008 \320\263\320\276\320\264\320\276\320\262, \320\260 \320\277\320\265\321\200\320\262\320\260\321\217 \320\262\320\265\321\200\321\201\320\270\321\217 \320\261\321\213\320\273\320\260 \320\262\321\213\320\277\321\203\321\211\320\265\320\275\320\260 \320\272 \320\272\320\276\320\275\321\206\321\203 2010 \320\263\320\276\320\264\320\260. \320\222 \321\201\320\270\321\201\321\202\320\265\320\274\320\265 \320\277\321\200\320\270\321\201\321\203\321\202\321\201\321\202\320\262\321\203\321\216\321\202 \320\277\321\200\320\270\320\273\320\276\320\266\320\265\320\275\320\270\321\217 \321\202\320\270\320\277\320\260 .deb, \320\272\320\276\321"
+                        "\202\320\276\321\200\321\213\320\265 \320\274\320\276\320\266\320\275\320\276 \321\203\321\201\321\202\320\260\320\275\320\276\320\262\320\270\321\202\321\214 \321\201 \320\277\320\276\320\274\320\276\321\211\321\214\321\216 \320\277\320\260\320\272\320\265\321\202\320\275\320\276\320\263\320\276 \320\274\320\265\320\275\320\265\320\264\320\266\320\265\321\200\320\260 apt. \320\222 \321\201\320\276\321\201\321\202\320\260\320\262 \321\201\320\270\321\201\321\202\320\265\320\274\321\213 \320\262\321\205\320\276\320\264\321\217\321\202,  \320\277\321\200\320\265\320\264\321\203\321\201\321\202\320\260\320\275\320\260\320\262\320\273\320\270\320\262\320\260\321\217\321\201\321\214: LibreOffice(\320\260\320\275\320\260\320\273\320\276\320\263 Microsoft Office), \320\261\321\200\320\260\321\203\320\267\320\265\321\200 Firefox, \320\277\320\276\321\207\321\202\320\276\320\262\321\213\320\271 \320\272\320\273\320\270\320\265\320\275\321\202 Thunderbird(\320\276\321\200\320\263\320\260\320\275\320\270\320\267\320\276\320"
+                        "\262\321\213\320\262\320\260\320\265\321\202 \321\215\320\273\320\265\320\272\321\202\321\200\320\276\320\275\320\275\321\213\320\271 \320\277\320\276\321\207\321\202\320\276\320\262\321\213\320\271 \321\217\321\211\320\270\320\272) \320\270 \320\264\321\200\321\203\320\263\320\270\320\265 \320\277\321\200\320\270\320\273\320\276\320\266\320\265\320\275\320\270\321\217 \320\270 \320\277\321\200\320\276\320\263\321\200\320\260\320\274\320\274\321\213. \320\236\320\261\320\275\320\276\320\262\320\273\320\265\320\275\320\270\321\217(\320\262 \320\267\320\260\320\262\320\270\321\201\320\270\320\274\320\276\321\201\321\202\320\270 \320\276\321\202 \320\262\320\265\321\200\321\201\320\270\320\271) \320\277\321\200\320\276\320\270\321\201\321\205\320\276\320\264\321\217\321\202 \320\264\320\262\320\260 \321\200\320\260\320\267\320\260 \320\262 \320\263\320\276\320\264. \320\236\321\204\320\270\321\206\320\270\320\260\320\273\321\214\320\275\321\213\320\271 \321\201\320\260\320\271\321\202 \321\201\320\270\321\201\321"
+                        "\202\320\265\320\274\321\213: </span><a href=\"https://astralinux.ru/\"><span style=\" text-decoration: underline; color:#007af4;\">astralinux.ru</span></a><span style=\" font-size:12pt;\"> . \320\224\320\270\321\201\321\202\321\200\320\270\320\261\321\203\321\202\320\270\320\262 \320\276\320\261\320\265\321\211\320\260\320\265\321\202 \320\261\320\265\320\267\320\276\320\277\320\260\321\201\320\275\320\276\321\201\321\202\321\214 \320\270 \320\275\320\260\320\264\320\265\320\266\320\275\320\276\321\201\321\202\321\214, \320\260 \321\202\320\260\320\272 \320\266\320\265 \321\201\320\276\320\262\320\274\320\265\321\201\321\202\320\270\320\274\320\276\321\201\321\202\321\214 \321\201 \320\277\320\276\320\274\320\276\321\211\321\214\321\216 Ready for Astra.</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; text-decoration: underline; color:#007af4;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom"
+                        ":0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\":/new/learn/img/logoNewAL.png\" /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:italic; color:#b7b7b7;\">\320\233\320\276\320\263\320\276\321\202\320\276\321\202\320\270\320\277 Astra Linux</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;\"><br /></p></body></html>", nullptr));
+        textBrowser_3->setHtml(QCoreApplication::translate("learn", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:16pt; font-weight:700;\">\320\223\321\200\320\260\321\204\320\270\321\207\320\265\321\201\320\272\320\270\320\271 \320\270\320\275\321\202\320\265\321\200\321\204\320\265\320\271\321\201</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:16pt; font-weight:700;"
+                        "\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:12pt;\">\320\222 \320\272\320\260\321\207\320\265\321\201\321\202\320\262\320\265 \320\263\321\200\320\260\321\204\320\270\321\207\320\265\321\201\320\276\320\272\320\276\320\263\320\276 \320\270\320\275\321\202\320\265\321\200\321\204\320\265\320\271\321\201\320\260 \321\201\320\270\321\201\321\202\320\265\320\274\321\213 \320\270\321\201\320\277\320\276\320\273\321\214\320\267\321\203\320\265\321\202\321\201\321\217 Fly, \321\201\320\276\320\261\321\201\321\202\320\262\320\265\320\275\320\275\320\260\321\217 \321\200\320\260\320\267\321\200\320\260\320\261\320\276\321\202\320\272\320\260 \320\272\320\276\320\274\320\277\320\260\320\275\320\270\320\270, \320\262\320\272\320\273\321\216\321\207\320\260\320\265\321\202 \320\262 \321\201\320\265\320\261\321\217 \321\200\320\260\320\261\320\276\321\207\320\270\320\271 \321\201\321\202\320\276\320\273, "
+                        "\320\274\320\265\320\275\321\216 \320\277\321\200\320\270\320\273\320\276\320\266\320\265\320\275\320\270\320\271 \320\270 \320\277\321\200\320\276\321\207\320\270\320\265 \320\274\320\265\321\205\320\260\320\275\320\270\320\267\320\274\321\213 \320\264\320\273\321\217 \320\263\321\200\320\260\321\204\320\270\321\207\320\265\321\201\320\272\320\276\320\271 \321\200\320\260\320\261\320\276\321\202\321\213 \321\201 \321\201\320\270\321\201\321\202\320\265\320\274\320\276\320\271.</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\":/new/learn/img/Screenshot_20250522_091723 (2).png\" /></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; text-decor"
+                        "ation: underline; color:#007af4;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:italic; color:#b7b7b7;\">\320\240\320\260\320\261\320\276\321\207\320\270\320\271 \321\201\321\202\320\276\320\273 \321\201\320\270\321\201\321\202\320\265\320\274\321\213</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-style:italic; color:#b7b7b7;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\":/new/learn/img/Screenshot_20250522_091811.png\" /></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-i"
+                        "ndent:0; text-indent:0px;\"><span style=\" font-style:italic; color:#b7b7b7;\">\320\234\320\265\320\275\321\216 \320\277\321\200\320\270\320\273\320\276\320\266\320\265\320\275\320\270\320\271</span></p></body></html>", nullptr));
+        textBrowser_2->setHtml(QCoreApplication::translate("learn", "<!DOCTYPE HTML PUBLIC \"-//W3C//DTD HTML 4.0//EN\" \"http://www.w3.org/TR/REC-html40/strict.dtd\">\n"
+"<html><head><meta name=\"qrichtext\" content=\"1\" /><meta charset=\"utf-8\" /><style type=\"text/css\">\n"
+"p, li { white-space: pre-wrap; }\n"
+"hr { height: 1px; border-width: 0; }\n"
+"li.unchecked::marker { content: \"\\2610\"; }\n"
+"li.checked::marker { content: \"\\2612\"; }\n"
+"</style></head><body style=\" font-family:'Segoe UI'; font-size:11pt; font-weight:400; font-style:normal;\">\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-size:16pt; font-weight:700;\">\320\237\321\200\320\270\320\274\320\265\320\275\320\265\320\275\320\270\320\265</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:16pt; font-weight:700;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px;"
+                        " margin-right:0px; -qt-block-indent:0; text-indent:0px;\">\320\235\320\260 \320\264\320\260\320\275\320\275\321\213\320\271 \320\274\320\276\320\274\320\265\320\275\321\202 Astra Linux \320\277\321\200\320\270\320\274\320\265\320\275\321\217\320\265\321\202\321\201\321\217 \320\262 \320\263\320\276\321\201\321\203\320\264\320\260\321\200\321\201\321\202\320\262\320\265\320\275\320\275\321\213\321\205 \321\203\321\207\321\200\320\265\320\266\320\264\320\265\320\275\320\270\320\271 \320\262 \321\200\320\260\320\267\320\273\320\270\321\207\320\275\321\213\321\205 \321\201\321\204\320\265\321\200\320\260\321\205, \320\275\320\260\320\277\321\200\320\270\320\274\320\265\321\200, \320\267\320\264\321\200\320\260\320\262\320\276\320\276\321\205\321\200\320\260\320\275\320\265\320\275\320\270\320\265, \320\276\320\261\321\200\320\260\320\267\320\276\320\262\320\260\320\275\320\270\320\265, \320\277\321\200\320\276\320\274\321\213\321\210\320\273\320\265\320\275\320\275\320\276\321\201\321\202\320\270 \320\270 \320\226"
+                        "\320\232\320\245. \320\235\320\260\320\277\321\200\320\270\320\274\320\265\321\200, \320\275\320\260 \320\275\320\265\320\271 \320\277\320\276\321\201\321\202\321\200\320\276\320\265\320\275\320\260 \320\270\320\275\321\204\320\276\321\200\320\274\320\260\321\206\320\270\320\276\320\275\320\275\320\260\321\217 \321\201\320\270\321\201\321\202\320\265\320\274\320\260 \320\235\320\260\321\206\320\270\320\276\320\275\320\260\320\273\321\214\320\275\320\276 \321\206\320\265\320\275\321\202\321\200\320\260 \321\203\320\277\321\200\320\260\320\262\320\273\320\265\320\275\320\270\320\265 \320\276\320\261\320\276\321\200\320\276\320\275\320\276\320\271 \320\240\320\244. \320\234\320\276\320\266\320\265\321\202 \320\277\321\200\320\270\320\274\320\265\320\275\321\217\321\202\321\214\321\201\321\217 \321\202\320\260\320\272\320\266\320\265 \320\270 \320\264\320\273\321\217 \320\273\320\270\321\207\320\275\320\276\320\263\320\276 \320\270\321\201\320\277\320\276\320\273\321\214\320\267\320\276\320\262\320\260\320\275\320"
+                        "\270\321\217 \320\270 \320\277\321\200\320\276\321\207\320\270\321\205 \320\275\321\203\320\266\320\264.</p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; text-decoration: underline; color:#007af4;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\":/new/learn/img/Emblem_of_Ministry_of_Health_of_.png\" /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:italic; color:#b7b7b7;\">\320\255\320\274\320\261\320\273\320\265\320\274\320\274\320\260 \320\267\320\264\321\200\320\260\320\262\320\276\320\276\321\205\321\200\320\260\320\275\320\265\320\275\320\270\321\217 \320\240\320\244</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-ind"
+                        "ent:0; text-indent:0px; font-style:italic; color:#b7b7b7;\"><br /></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;\"><br /></p></body></html>", nullptr));
     } // retranslateUi
 
 };

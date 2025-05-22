@@ -44,8 +44,15 @@ private slots:
     void txtts();
     void saveSettings();
     void loadSettings();
+    void leftRightShow();
 
 
+
+
+
+    void on_right_clicked();
+
+    void on_left_clicked();
 
 private:
     Ui::learn *ui;

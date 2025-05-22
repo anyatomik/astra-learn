@@ -9,8 +9,9 @@ MainWindow::MainWindow(QWidget *parent)
     , ui(new Ui::MainWindow)
 {
     ui->setupUi(this);
-
+    icon();
 }
+
 
 MainWindow::~MainWindow()
 {
@@ -38,6 +39,11 @@ void MainWindow::on_settings_clicked()
 void MainWindow::on_information_clicked()
 {
     inf.show();
+}
+
+void MainWindow::icon()
+{
+     QMainWindow::setWindowIcon(QIcon("qrc:/new/icons/img/information.png"));
 }
 
 

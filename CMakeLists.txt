@@ -73,3 +73,5 @@ install(TARGETS astra-learn
 if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(astra-learn)
 endif()
+
+

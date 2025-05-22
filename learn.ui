@@ -23,7 +23,7 @@
      <x>0</x>
      <y>0</y>
      <width>831</width>
-     <height>588</height>
+     <height>583</height>
     </rect>
    </property>
    <layout class="QVBoxLayout" name="verticalLayout_3">
@@ -189,25 +189,28 @@
       <widget class="QStackedWidget" name="page_buttons">
        <property name="geometry">
         <rect>
-         <x>590</x>
+         <x>550</x>
          <y>0</y>
-         <width>111</width>
+         <width>101</width>
          <height>31</height>
         </rect>
        </property>
        <property name="currentIndex">
-        <number>0</number>
+        <number>1</number>
        </property>
        <widget class="QWidget" name="main_2"/>
        <widget class="QWidget" name="th1">
         <widget class="QComboBox" name="comboBox">
          <property name="geometry">
           <rect>
-           <x>10</x>
+           <x>0</x>
            <y>0</y>
            <width>101</width>
            <height>28</height>
           </rect>
+         </property>
+         <property name="layoutDirection">
+          <enum>Qt::LayoutDirection::LeftToRight</enum>
          </property>
          <item>
           <property name="text">
@@ -230,7 +233,7 @@
         <widget class="QComboBox" name="comboBox_2">
          <property name="geometry">
           <rect>
-           <x>10</x>
+           <x>0</x>
            <y>0</y>
            <width>101</width>
            <height>28</height>
@@ -257,7 +260,7 @@
         <widget class="QComboBox" name="comboBox_3">
          <property name="geometry">
           <rect>
-           <x>10</x>
+           <x>0</x>
            <y>0</y>
            <width>101</width>
            <height>28</height>
@@ -284,7 +287,7 @@
         <widget class="QComboBox" name="comboBox_4">
          <property name="geometry">
           <rect>
-           <x>10</x>
+           <x>0</x>
            <y>0</y>
            <width>101</width>
            <height>28</height>
@@ -311,7 +314,7 @@
         <widget class="QComboBox" name="comboBox_5">
          <property name="geometry">
           <rect>
-           <x>10</x>
+           <x>0</x>
            <y>0</y>
            <width>101</width>
            <height>28</height>
@@ -338,7 +341,7 @@
         <widget class="QComboBox" name="comboBox_6">
          <property name="geometry">
           <rect>
-           <x>10</x>
+           <x>0</x>
            <y>0</y>
            <width>101</width>
            <height>28</height>
@@ -365,7 +368,7 @@
         <widget class="QComboBox" name="comboBox_7">
          <property name="geometry">
           <rect>
-           <x>10</x>
+           <x>0</x>
            <y>0</y>
            <width>101</width>
            <height>28</height>
@@ -392,7 +395,7 @@
         <widget class="QComboBox" name="comboBox_8">
          <property name="geometry">
           <rect>
-           <x>10</x>
+           <x>0</x>
            <y>0</y>
            <width>101</width>
            <height>28</height>
@@ -415,6 +418,52 @@
          </item>
         </widget>
        </widget>
+      </widget>
+      <widget class="QPushButton" name="right">
+       <property name="geometry">
+        <rect>
+         <x>660</x>
+         <y>0</y>
+         <width>31</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/new/icons/img/right.png</normaloff>:/new/icons/img/right.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="left">
+       <property name="geometry">
+        <rect>
+         <x>510</x>
+         <y>0</y>
+         <width>31</width>
+         <height>28</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+       <property name="icon">
+        <iconset resource="img.qrc">
+         <normaloff>:/new/icons/img/left.png</normaloff>:/new/icons/img/left.png</iconset>
+       </property>
+       <property name="iconSize">
+        <size>
+         <width>20</width>
+         <height>20</height>
+        </size>
+       </property>
       </widget>
      </widget>
     </item>
@@ -726,14 +775,270 @@
         </layout>
        </widget>
       </widget>
-      <widget class="QWidget" name="page1"/>
-      <widget class="QWidget" name="page8"/>
-      <widget class="QWidget" name="page2"/>
-      <widget class="QWidget" name="page4"/>
-      <widget class="QWidget" name="page5"/>
-      <widget class="QWidget" name="page6"/>
-      <widget class="QWidget" name="page7"/>
-      <widget class="QWidget" name="page3"/>
+      <widget class="QWidget" name="page1">
+       <widget class="QStackedWidget" name="pages_1">
+        <property name="geometry">
+         <rect>
+          <x>-1</x>
+          <y>-1</y>
+          <width>831</width>
+          <height>491</height>
+         </rect>
+        </property>
+        <widget class="QWidget" name="page_1_1">
+         <widget class="QScrollArea" name="page_1_1_scr">
+          <property name="geometry">
+           <rect>
+            <x>-1</x>
+            <y>-1</y>
+            <width>831</width>
+            <height>491</height>
+           </rect>
+          </property>
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents_2">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>829</width>
+             <height>489</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_4">
+            <item>
+             <widget class="QTextBrowser" name="textBrowser">
+              <property name="html">
+               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:700;&quot;&gt;Общая информация&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:16pt; font-weight:700;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt; font-weight:700;&quot;&gt;Astra Linux &lt;/span&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;- российская операционная система, разрабатываемая на базе ядра Linux, на данный момент активно внедряется в государственнные учреждения. История начала разработки берет начало с 2008 годов, а первая версия была выпущена к концу 2010 года. В системе присутствуют приложения типа .deb, которые можно установить с помощью пакетного менеджера apt. В состав системы входят,  предустанавливаясь: LibreOffice(аналог Microsoft Office), браузер Firefox, почтовый клиент Thunderbird(организовывает электронный почтовый ящик) и другие приложения и программы. Обновления(в зависимости от версий) происходят два раза в год. Официальный сайт системы: &lt;/span&gt;&lt;a href=&quot;https://astralinux.ru/&quot;&gt;&lt;span style=&quot; text-decoration: underline; color:#007af4;&quot;&gt;astralinux.ru&lt;/span&gt;&lt;/a&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt; . Дистрибутив обещает безопасность и надежность, а так же совместимость с помощью Ready for Astra.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; text-decoration: underline; color:#007af4;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/new/learn/img/logoNewAL.png&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#b7b7b7;&quot;&gt;Логототип Astra Linux&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="page_2_1">
+         <widget class="QScrollArea" name="page_1_1_scr_2">
+          <property name="geometry">
+           <rect>
+            <x>-1</x>
+            <y>-1</y>
+            <width>831</width>
+            <height>491</height>
+           </rect>
+          </property>
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents_5">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>829</width>
+             <height>489</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_6">
+            <item>
+             <widget class="QTextBrowser" name="textBrowser_3">
+              <property name="html">
+               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:700;&quot;&gt;Графический интерфейс&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:16pt; font-weight:700;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:12pt;&quot;&gt;В качестве графичесокого интерфейса системы используется Fly, собственная разработка компании, включает в себя рабочий стол, меню приложений и прочие механизмы для графической работы с системой.&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/new/learn/img/Screenshot_20250522_091723 (2).png&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; text-decoration: underline; color:#007af4;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#b7b7b7;&quot;&gt;Рабочий стол системы&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-style:italic; color:#b7b7b7;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/new/learn/img/Screenshot_20250522_091811.png&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#b7b7b7;&quot;&gt;Меню приложений&lt;/span&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </widget>
+        <widget class="QWidget" name="page_3_1">
+         <widget class="QScrollArea" name="page_1_1_scr_3">
+          <property name="geometry">
+           <rect>
+            <x>-1</x>
+            <y>-1</y>
+            <width>831</width>
+            <height>491</height>
+           </rect>
+          </property>
+          <property name="widgetResizable">
+           <bool>true</bool>
+          </property>
+          <widget class="QWidget" name="scrollAreaWidgetContents_4">
+           <property name="geometry">
+            <rect>
+             <x>0</x>
+             <y>0</y>
+             <width>829</width>
+             <height>489</height>
+            </rect>
+           </property>
+           <layout class="QVBoxLayout" name="verticalLayout_5">
+            <item>
+             <widget class="QTextBrowser" name="textBrowser_2">
+              <property name="html">
+               <string>&lt;!DOCTYPE HTML PUBLIC &quot;-//W3C//DTD HTML 4.0//EN&quot; &quot;http://www.w3.org/TR/REC-html40/strict.dtd&quot;&gt;
+&lt;html&gt;&lt;head&gt;&lt;meta name=&quot;qrichtext&quot; content=&quot;1&quot; /&gt;&lt;meta charset=&quot;utf-8&quot; /&gt;&lt;style type=&quot;text/css&quot;&gt;
+p, li { white-space: pre-wrap; }
+hr { height: 1px; border-width: 0; }
+li.unchecked::marker { content: &quot;\2610&quot;; }
+li.checked::marker { content: &quot;\2612&quot;; }
+&lt;/style&gt;&lt;/head&gt;&lt;body style=&quot; font-family:'Segoe UI'; font-size:11pt; font-weight:400; font-style:normal;&quot;&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-size:16pt; font-weight:700;&quot;&gt;Применение&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:16pt; font-weight:700;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;На данный момент Astra Linux применяется в государственных учреждений в различных сферах, например, здравоохранение, образование, промышленности и ЖКХ. Например, на ней построена информационная система Национально центра управление обороной РФ. Может применяться также и для личного использования и прочих нужд.&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; text-decoration: underline; color:#007af4;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;img src=&quot;:/new/learn/img/Emblem_of_Ministry_of_Health_of_.png&quot; /&gt;&lt;/p&gt;
+&lt;p style=&quot; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;span style=&quot; font-style:italic; color:#b7b7b7;&quot;&gt;Эмблема здравоохранения РФ&lt;/span&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-style:italic; color:#b7b7b7;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;&quot;&gt;&lt;br /&gt;&lt;/p&gt;
+&lt;p style=&quot;-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;&quot;&gt;&lt;br /&gt;&lt;/p&gt;&lt;/body&gt;&lt;/html&gt;</string>
+              </property>
+             </widget>
+            </item>
+           </layout>
+          </widget>
+         </widget>
+        </widget>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page8">
+       <widget class="QStackedWidget" name="pages_8">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>831</width>
+          <height>501</height>
+         </rect>
+        </property>
+        <widget class="QWidget" name="page_1_8"/>
+        <widget class="QWidget" name="page_2_8"/>
+        <widget class="QWidget" name="page_3_8"/>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page2">
+       <widget class="QStackedWidget" name="pages_2">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>831</width>
+          <height>501</height>
+         </rect>
+        </property>
+        <widget class="QWidget" name="page_1_2"/>
+        <widget class="QWidget" name="page_3_2"/>
+        <widget class="QWidget" name="page_2_2"/>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page4">
+       <widget class="QStackedWidget" name="pages_4">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>831</width>
+          <height>501</height>
+         </rect>
+        </property>
+        <widget class="QWidget" name="page_1_4"/>
+        <widget class="QWidget" name="page_2_4"/>
+        <widget class="QWidget" name="page_3_4"/>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page5">
+       <widget class="QStackedWidget" name="pages_5">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>831</width>
+          <height>501</height>
+         </rect>
+        </property>
+        <widget class="QWidget" name="page_1_5"/>
+        <widget class="QWidget" name="page_2_5"/>
+        <widget class="QWidget" name="page_3_5"/>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page6">
+       <widget class="QStackedWidget" name="pages_6">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>831</width>
+          <height>501</height>
+         </rect>
+        </property>
+        <widget class="QWidget" name="page_1_6"/>
+        <widget class="QWidget" name="page_3_6"/>
+        <widget class="QWidget" name="page_2_6"/>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page7">
+       <widget class="QStackedWidget" name="pages_7">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>831</width>
+          <height>501</height>
+         </rect>
+        </property>
+        <widget class="QWidget" name="page_1_7"/>
+        <widget class="QWidget" name="page_2_7"/>
+        <widget class="QWidget" name="page_3_7"/>
+       </widget>
+      </widget>
+      <widget class="QWidget" name="page3">
+       <widget class="QStackedWidget" name="pages_3">
+        <property name="geometry">
+         <rect>
+          <x>0</x>
+          <y>0</y>
+          <width>831</width>
+          <height>501</height>
+         </rect>
+        </property>
+        <widget class="QWidget" name="page_1_3"/>
+        <widget class="QWidget" name="page_3_3"/>
+        <widget class="QWidget" name="page_2_3"/>
+       </widget>
+      </widget>
      </widget>
     </item>
    </layout>

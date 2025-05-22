@@ -32,6 +32,8 @@ private slots:
 
     void on_information_clicked();
 
+    void icon();
+
 
 private:
     Ui::MainWindow *ui;
@@ -44,6 +46,7 @@ private:
     learn lrn;
     settings sett;
     tests tsts;
+
 
 
 public slots:
