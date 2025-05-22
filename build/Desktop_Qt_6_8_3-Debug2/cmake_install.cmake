@@ -62,6 +62,42 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
   endif()
 endif()
 
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/opt/usr/bin/astra-learn" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/opt/usr/bin/astra-learn")
+    file(RPATH_CHECK
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/opt/usr/bin/astra-learn"
+         RPATH "")
+  endif()
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/opt/usr/bin" TYPE EXECUTABLE FILES "/home/a-nya/Projects/Astra-learn/astra-learn/build/Desktop_Qt_6_8_3-Debug2/astra-learn")
+  if(EXISTS "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/opt/usr/bin/astra-learn" AND
+     NOT IS_SYMLINK "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/opt/usr/bin/astra-learn")
+    file(RPATH_CHANGE
+         FILE "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/opt/usr/bin/astra-learn"
+         OLD_RPATH "/home/a-nya/Qt/6.8.3/gcc_64/lib:"
+         NEW_RPATH "")
+    if(CMAKE_INSTALL_DO_STRIP)
+      execute_process(COMMAND "/bin/strip" "$ENV{DESTDIR}${CMAKE_INSTALL_PREFIX}/opt/usr/bin/astra-learn")
+    endif()
+  endif()
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  include("/home/a-nya/Projects/Astra-learn/astra-learn/build/Desktop_Qt_6_8_3-Debug2/CMakeFiles/astra-learn.dir/install-cxx-module-bmi-Debug.cmake" OPTIONAL)
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/usr/share/pixmaps" TYPE FILE FILES "/home/a-nya/Projects/Astra-learn/astra-learn/img/information.png.png")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/usr/share/applications/flydesktop" TYPE FILE FILES "/home/a-nya/Projects/Astra-learn/astra-learn/astra-learn.desktop.desktop")
+endif()
+
+if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/usr/share/applications/flystartmenu" TYPE FILE FILES "/home/a-nya/Projects/Astra-learn/astra-learn/astra-learn.desktop.desktop")
+endif()
+
 if(CMAKE_INSTALL_COMPONENT)
   if(CMAKE_INSTALL_COMPONENT MATCHES "^[a-zA-Z0-9_.+-]+$")
     set(CMAKE_INSTALL_MANIFEST "install_manifest_${CMAKE_INSTALL_COMPONENT}.txt")

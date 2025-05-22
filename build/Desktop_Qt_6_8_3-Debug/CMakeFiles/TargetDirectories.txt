@@ -1,9 +1,0 @@
-/home/a-nya/Документы/Проект astra/project/astra-learn/build/Desktop_Qt_6_8_3-Debug/CMakeFiles/astra-learn.dir
-/home/a-nya/Документы/Проект astra/project/astra-learn/build/Desktop_Qt_6_8_3-Debug/CMakeFiles/edit_cache.dir
-/home/a-nya/Документы/Проект astra/project/astra-learn/build/Desktop_Qt_6_8_3-Debug/CMakeFiles/rebuild_cache.dir
-/home/a-nya/Документы/Проект astra/project/astra-learn/build/Desktop_Qt_6_8_3-Debug/CMakeFiles/list_install_components.dir
-/home/a-nya/Документы/Проект astra/project/astra-learn/build/Desktop_Qt_6_8_3-Debug/CMakeFiles/install.dir
-/home/a-nya/Документы/Проект astra/project/astra-learn/build/Desktop_Qt_6_8_3-Debug/CMakeFiles/install/local.dir
-/home/a-nya/Документы/Проект astra/project/astra-learn/build/Desktop_Qt_6_8_3-Debug/CMakeFiles/install/strip.dir
-/home/a-nya/Документы/Проект astra/project/astra-learn/build/Desktop_Qt_6_8_3-Debug/CMakeFiles/astra-learn_autogen_timestamp_deps.dir
-/home/a-nya/Документы/Проект astra/project/astra-learn/build/Desktop_Qt_6_8_3-Debug/CMakeFiles/astra-learn_autogen.dir

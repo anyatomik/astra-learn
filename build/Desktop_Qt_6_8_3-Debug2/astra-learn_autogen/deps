@@ -410,6 +410,8 @@ astra-learn_autogen/timestamp: \
 	/home/a-nya/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeLanguageInformation.cmake \
 	/home/a-nya/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeSystemSpecificInformation.cmake \
 	/home/a-nya/Qt/Tools/CMake/share/cmake-3.30/Modules/CMakeSystemSpecificInitialize.cmake \
+	/home/a-nya/Qt/Tools/CMake/share/cmake-3.30/Modules/CPack.cmake \
+	/home/a-nya/Qt/Tools/CMake/share/cmake-3.30/Modules/CPackComponent.cmake \
 	/home/a-nya/Qt/Tools/CMake/share/cmake-3.30/Modules/CheckCXXCompilerFlag.cmake \
 	/home/a-nya/Qt/Tools/CMake/share/cmake-3.30/Modules/CheckCXXSourceCompiles.cmake \
 	/home/a-nya/Qt/Tools/CMake/share/cmake-3.30/Modules/CheckIncludeFileCXX.cmake \
@@ -434,6 +436,7 @@ astra-learn_autogen/timestamp: \
 	/home/a-nya/Qt/Tools/CMake/share/cmake-3.30/Modules/Platform/Linux-Initialize.cmake \
 	/home/a-nya/Qt/Tools/CMake/share/cmake-3.30/Modules/Platform/Linux.cmake \
 	/home/a-nya/Qt/Tools/CMake/share/cmake-3.30/Modules/Platform/UnixPaths.cmake \
+	/home/a-nya/Qt/Tools/CMake/share/cmake-3.30/Templates/CPackConfig.cmake.in \
 	/usr/include/alloca.h \
 	/usr/include/asm-generic/errno-base.h \
 	/usr/include/asm-generic/errno.h \

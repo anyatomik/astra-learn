@@ -409,6 +409,10 @@
 		"/home/a-nya/Qt/6.8.3/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsPlugins.cmake",
 		"/home/a-nya/Qt/6.8.3/gcc_64/lib/cmake/Qt6Widgets/Qt6WidgetsVersionlessAliasTargets.cmake",
 		"/home/a-nya/Qt/Tools/CMake/share/cmake-3.30/Modules/GNUInstallDirs.cmake",
+		"/home/a-nya/Qt/Tools/CMake/share/cmake-3.30/Modules/CPack.cmake",
+		"/home/a-nya/Qt/Tools/CMake/share/cmake-3.30/Modules/CPackComponent.cmake",
+		"/home/a-nya/Qt/Tools/CMake/share/cmake-3.30/Templates/CPackConfig.cmake.in",
+		"/home/a-nya/Qt/Tools/CMake/share/cmake-3.30/Templates/CPackConfig.cmake.in",
 		"/home/a-nya/Projects/Astra-learn/astra-learn/img.qrc"
 	],
 	"CMAKE_SOURCE_DIR" : "/home/a-nya/Projects/Astra-learn/astra-learn",

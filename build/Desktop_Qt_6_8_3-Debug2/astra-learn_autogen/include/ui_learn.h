@@ -388,6 +388,7 @@ public:
 
         butt2 = new QPushButton(scrollAreaWidgetContents);
         butt2->setObjectName("butt2");
+        butt2->setEnabled(false);
         butt2->setMinimumSize(QSize(0, 90));
         butt2->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
 
@@ -395,6 +396,7 @@ public:
 
         butt3 = new QPushButton(scrollAreaWidgetContents);
         butt3->setObjectName("butt3");
+        butt3->setEnabled(false);
         butt3->setMinimumSize(QSize(0, 90));
         butt3->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
 
@@ -402,6 +404,7 @@ public:
 
         butt4 = new QPushButton(scrollAreaWidgetContents);
         butt4->setObjectName("butt4");
+        butt4->setEnabled(false);
         butt4->setMinimumSize(QSize(0, 90));
         butt4->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
 
@@ -409,6 +412,7 @@ public:
 
         butt5 = new QPushButton(scrollAreaWidgetContents);
         butt5->setObjectName("butt5");
+        butt5->setEnabled(false);
         butt5->setMinimumSize(QSize(0, 90));
         butt5->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
 
@@ -416,6 +420,7 @@ public:
 
         butt6 = new QPushButton(scrollAreaWidgetContents);
         butt6->setObjectName("butt6");
+        butt6->setEnabled(false);
         butt6->setMinimumSize(QSize(0, 90));
         butt6->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
 
@@ -423,6 +428,7 @@ public:
 
         butt7 = new QPushButton(scrollAreaWidgetContents);
         butt7->setObjectName("butt7");
+        butt7->setEnabled(false);
         butt7->setMinimumSize(QSize(0, 90));
         butt7->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
 
@@ -430,6 +436,7 @@ public:
 
         butt8 = new QPushButton(scrollAreaWidgetContents);
         butt8->setObjectName("butt8");
+        butt8->setEnabled(false);
         butt8->setMinimumSize(QSize(0, 90));
         butt8->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
 
@@ -736,9 +743,9 @@ public:
                         "\270\321\217 \320\270 \320\277\321\200\320\276\321\207\320\270\321\205 \320\275\321\203\320\266\320\264.</p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; text-decoration: underline; color:#007af4;\"><br /></p>\n"
 "<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><img src=\":/new/learn/img/Emblem_of_Ministry_of_Health_of_.png\" /></p>\n"
-"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:italic; color:#b7b7b7;\">\320\255\320\274\320\261\320\273\320\265\320\274\320\274\320\260 \320\267\320\264\321\200\320\260\320\262\320\276\320\276\321\205\321\200\320\260\320\275\320\265\320\275\320\270\321\217 \320\240\320\244</span></p>\n"
-"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-ind"
-                        "ent:0; text-indent:0px; font-style:italic; color:#b7b7b7;\"><br /></p>\n"
+"<p style=\" margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><span style=\" font-style:italic; color:#b7b7b7;\">\320\255\320\274\320\261\320\273\320\265\320\274\320\260 \320\267\320\264\321\200\320\260\320\262\320\276\320\276\321\205\321\200\320\260\320\275\320\265\320\275\320\270\321\217 \320\240\320\244</span></p>\n"
+"<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; t"
+                        "ext-indent:0px; font-style:italic; color:#b7b7b7;\"><br /></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px;\"><br /></p>\n"
 "<p style=\"-qt-paragraph-type:empty; margin-top:0px; margin-bottom:0px; margin-left:0px; margin-right:0px; -qt-block-indent:0; text-indent:0px; font-size:12pt;\"><br /></p></body></html>", nullptr));
     } // retranslateUi

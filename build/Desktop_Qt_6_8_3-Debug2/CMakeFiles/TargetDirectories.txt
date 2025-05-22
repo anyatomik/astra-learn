@@ -1,4 +1,6 @@
 /home/a-nya/Projects/Astra-learn/astra-learn/build/Desktop_Qt_6_8_3-Debug2/CMakeFiles/astra-learn.dir
+/home/a-nya/Projects/Astra-learn/astra-learn/build/Desktop_Qt_6_8_3-Debug2/CMakeFiles/package.dir
+/home/a-nya/Projects/Astra-learn/astra-learn/build/Desktop_Qt_6_8_3-Debug2/CMakeFiles/package_source.dir
 /home/a-nya/Projects/Astra-learn/astra-learn/build/Desktop_Qt_6_8_3-Debug2/CMakeFiles/edit_cache.dir
 /home/a-nya/Projects/Astra-learn/astra-learn/build/Desktop_Qt_6_8_3-Debug2/CMakeFiles/rebuild_cache.dir
 /home/a-nya/Projects/Astra-learn/astra-learn/build/Desktop_Qt_6_8_3-Debug2/CMakeFiles/list_install_components.dir
