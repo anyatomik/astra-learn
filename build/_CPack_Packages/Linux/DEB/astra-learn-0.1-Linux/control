@@ -1,7 +1,7 @@
 Architecture: amd64
-Depends: libqt6core6a, libqt6widgets6
+Depends: libqt5core5a, libqt5widgets5
 Description: Application for learning Astra Linux
-Maintainer: AnyaTomik <anya.tomilova15@gmail.coml>
+Maintainer: AnyaTomik <anya.tomilova15@gmail.com>
 Package: astra-learn
 Priority: optional
 Section: contrib

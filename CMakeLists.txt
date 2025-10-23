@@ -77,10 +77,9 @@ endif()
 set(CPACK_GENERATOR "DEB")
 set(CPACK_PROJECT_NAME ${PROJECT_NAME})
 set(CPACK_DEBIAN_PACKAGE_SECTION "contrib")
-set(CPACK_DEBIAN_PACKAGE_MAINTAINER "AnyaTomik <anya.tomilova15@gmail.coml>")
+set(CPACK_DEBIAN_PACKAGE_MAINTAINER "AnyaTomik <anya.tomilova15@gmail.com>")
 set(CPACK_DEBIAN_PACKAGE_DESCRIPTION "Application for learning Astra Linux")
-set(CPACK_DEBIAN_PACKAGE_DEPENDS "libqt6core6a, libqt6widgets6")
-
+set(CPACK_DEBIAN_PACKAGE_DEPENDS "libqt5core5a, libqt5widgets5")
 set(CPACK_PACKAGING_INSTALL_PREFIX "/")
 
 set(CPACK_STRIP_FILES ON)
