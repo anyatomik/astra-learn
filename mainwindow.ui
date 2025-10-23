@@ -107,6 +107,9 @@
       <layout class="QVBoxLayout" name="test_layout">
        <item>
         <widget class="QPushButton" name="tests">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
          <property name="minimumSize">
           <size>
            <width>130</width>
@@ -156,6 +159,9 @@
       <layout class="QVBoxLayout" name="settings_layout">
        <item>
         <widget class="QPushButton" name="settings">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
          <property name="minimumSize">
           <size>
            <width>130</width>
@@ -205,6 +211,9 @@
       <layout class="QVBoxLayout" name="information_layout">
        <item>
         <widget class="QPushButton" name="information">
+         <property name="enabled">
+          <bool>true</bool>
+         </property>
          <property name="minimumSize">
           <size>
            <width>130</width>

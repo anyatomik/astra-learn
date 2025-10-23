@@ -292,3 +292,89 @@ events:
       Running the CXX compiler's linker: "/usr/bin/ld" "-v"
       GNU ld (GNU Binutils for Ubuntu) 2.42
 ...
+
+---
+events:
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/local/share/cmake-4.0/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/usr/local/share/cmake-4.0/Modules/FindThreads.cmake:99 (check_cxx_source_compiles)"
+      - "/usr/local/share/cmake-4.0/Modules/FindThreads.cmake:163 (_threads_check_libc)"
+      - "/usr/local/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicDependencyHelpers.cmake:33 (find_dependency)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Dependencies.cmake:24 (_qt_internal_find_third_party_dependencies)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Config.cmake:122 (include)"
+      - "CMakeLists.txt:12 (find_package)"
+    checks:
+      - "Performing Test CMAKE_HAVE_LIBC_PTHREAD"
+    directories:
+      source: "/home/a-nya/Projects/Astra-learn/astra-learn/build/CMakeFiles/CMakeScratch/TryCompile-6SXH9k"
+      binary: "/home/a-nya/Projects/Astra-learn/astra-learn/build/CMakeFiles/CMakeScratch/TryCompile-6SXH9k"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/Qt6;/usr/lib/x86_64-linux-gnu/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/x86_64-linux-gnu/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "CMAKE_HAVE_LIBC_PTHREAD"
+      cached: true
+      stdout: |
+        Change Dir: '/home/a-nya/Projects/Astra-learn/astra-learn/build/CMakeFiles/CMakeScratch/TryCompile-6SXH9k'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_ce689/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_ce689.dir/build.make CMakeFiles/cmTC_ce689.dir/build
+        gmake[1]: вход в каталог «/home/a-nya/Projects/Astra-learn/astra-learn/build/CMakeFiles/CMakeScratch/TryCompile-6SXH9k»
+        Building CXX object CMakeFiles/cmTC_ce689.dir/src.cxx.o
+        /usr/bin/c++ -DCMAKE_HAVE_LIBC_PTHREAD  -std=gnu++17 -o CMakeFiles/cmTC_ce689.dir/src.cxx.o -c /home/a-nya/Projects/Astra-learn/astra-learn/build/CMakeFiles/CMakeScratch/TryCompile-6SXH9k/src.cxx
+        Linking CXX executable cmTC_ce689
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ce689.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_ce689.dir/src.cxx.o -o cmTC_ce689
+        gmake[1]: выход из каталога «/home/a-nya/Projects/Astra-learn/astra-learn/build/CMakeFiles/CMakeScratch/TryCompile-6SXH9k»
+        
+      exitCode: 0
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/usr/local/share/cmake-4.0/Modules/Internal/CheckSourceCompiles.cmake:104 (try_compile)"
+      - "/usr/local/share/cmake-4.0/Modules/CheckCXXSourceCompiles.cmake:58 (cmake_check_source_compiles)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt6/FindWrapAtomic.cmake:33 (check_cxx_source_compiles)"
+      - "/usr/local/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicDependencyHelpers.cmake:33 (find_dependency)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreDependencies.cmake:30 (_qt_internal_find_third_party_dependencies)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt6Core/Qt6CoreConfig.cmake:50 (include)"
+      - "/usr/local/share/cmake-4.0/Modules/CMakeFindDependencyMacro.cmake:78 (find_package)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt6/QtPublicDependencyHelpers.cmake:108 (find_dependency)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsDependencies.cmake:39 (_qt_internal_find_qt_dependencies)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt6Widgets/Qt6WidgetsConfig.cmake:50 (include)"
+      - "/usr/lib/x86_64-linux-gnu/cmake/Qt6/Qt6Config.cmake:167 (find_package)"
+      - "CMakeLists.txt:13 (find_package)"
+    checks:
+      - "Performing Test HAVE_STDATOMIC"
+    directories:
+      source: "/home/a-nya/Projects/Astra-learn/astra-learn/build/CMakeFiles/CMakeScratch/TryCompile-YtK0sf"
+      binary: "/home/a-nya/Projects/Astra-learn/astra-learn/build/CMakeFiles/CMakeScratch/TryCompile-YtK0sf"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_MODULE_PATH: "/usr/lib/x86_64-linux-gnu/cmake/Qt6;/usr/lib/x86_64-linux-gnu/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/x86_64-linux-gnu/cmake/Qt6/3rdparty/kwin;/usr/lib/x86_64-linux-gnu/cmake/Qt6;/usr/lib/x86_64-linux-gnu/cmake/Qt6/3rdparty/extra-cmake-modules/find-modules;/usr/lib/x86_64-linux-gnu/cmake/Qt6/3rdparty/kwin"
+    buildResult:
+      variable: "HAVE_STDATOMIC"
+      cached: true
+      stdout: |
+        Change Dir: '/home/a-nya/Projects/Astra-learn/astra-learn/build/CMakeFiles/CMakeScratch/TryCompile-YtK0sf'
+        
+        Run Build Command(s): /usr/local/bin/cmake -E env VERBOSE=1 /usr/bin/gmake -f Makefile cmTC_4a1e6/fast
+        /usr/bin/gmake  -f CMakeFiles/cmTC_4a1e6.dir/build.make CMakeFiles/cmTC_4a1e6.dir/build
+        gmake[1]: вход в каталог «/home/a-nya/Projects/Astra-learn/astra-learn/build/CMakeFiles/CMakeScratch/TryCompile-YtK0sf»
+        Building CXX object CMakeFiles/cmTC_4a1e6.dir/src.cxx.o
+        /usr/bin/c++ -DHAVE_STDATOMIC  -std=gnu++17 -o CMakeFiles/cmTC_4a1e6.dir/src.cxx.o -c /home/a-nya/Projects/Astra-learn/astra-learn/build/CMakeFiles/CMakeScratch/TryCompile-YtK0sf/src.cxx
+        Linking CXX executable cmTC_4a1e6
+        /usr/local/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a1e6.dir/link.txt --verbose=1
+        /usr/bin/c++ CMakeFiles/cmTC_4a1e6.dir/src.cxx.o -o cmTC_4a1e6
+        gmake[1]: выход из каталога «/home/a-nya/Projects/Astra-learn/astra-learn/build/CMakeFiles/CMakeScratch/TryCompile-YtK0sf»
+        
+      exitCode: 0
+...

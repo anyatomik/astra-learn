@@ -1,0 +1,10 @@
+Architecture: amd64
+Depends: libqt6core6a, libqt6widgets6
+Description: Application for learning Astra Linux
+Maintainer: AnyaTomik <anya.tomilova15@gmail.coml>
+Package: astra-learn
+Priority: optional
+Section: contrib
+Version: 0.1
+Installed-Size: 2162
+

@@ -376,7 +376,7 @@ public:
         scrollArea->setWidgetResizable(true);
         scrollAreaWidgetContents = new QWidget();
         scrollAreaWidgetContents->setObjectName("scrollAreaWidgetContents");
-        scrollAreaWidgetContents->setGeometry(QRect(0, 0, 584, 806));
+        scrollAreaWidgetContents->setGeometry(QRect(0, -328, 584, 806));
         verticalLayout = new QVBoxLayout(scrollAreaWidgetContents);
         verticalLayout->setObjectName("verticalLayout");
         butt1 = new QPushButton(scrollAreaWidgetContents);
@@ -388,7 +388,7 @@ public:
 
         butt2 = new QPushButton(scrollAreaWidgetContents);
         butt2->setObjectName("butt2");
-        butt2->setEnabled(false);
+        butt2->setEnabled(true);
         butt2->setMinimumSize(QSize(0, 90));
         butt2->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
 
@@ -396,7 +396,7 @@ public:
 
         butt3 = new QPushButton(scrollAreaWidgetContents);
         butt3->setObjectName("butt3");
-        butt3->setEnabled(false);
+        butt3->setEnabled(true);
         butt3->setMinimumSize(QSize(0, 90));
         butt3->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
 
@@ -404,7 +404,7 @@ public:
 
         butt4 = new QPushButton(scrollAreaWidgetContents);
         butt4->setObjectName("butt4");
-        butt4->setEnabled(false);
+        butt4->setEnabled(true);
         butt4->setMinimumSize(QSize(0, 90));
         butt4->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
 
@@ -412,7 +412,7 @@ public:
 
         butt5 = new QPushButton(scrollAreaWidgetContents);
         butt5->setObjectName("butt5");
-        butt5->setEnabled(false);
+        butt5->setEnabled(true);
         butt5->setMinimumSize(QSize(0, 90));
         butt5->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
 
@@ -420,7 +420,7 @@ public:
 
         butt6 = new QPushButton(scrollAreaWidgetContents);
         butt6->setObjectName("butt6");
-        butt6->setEnabled(false);
+        butt6->setEnabled(true);
         butt6->setMinimumSize(QSize(0, 90));
         butt6->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
 
@@ -428,7 +428,7 @@ public:
 
         butt7 = new QPushButton(scrollAreaWidgetContents);
         butt7->setObjectName("butt7");
-        butt7->setEnabled(false);
+        butt7->setEnabled(true);
         butt7->setMinimumSize(QSize(0, 90));
         butt7->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
 
@@ -436,7 +436,7 @@ public:
 
         butt8 = new QPushButton(scrollAreaWidgetContents);
         butt8->setObjectName("butt8");
-        butt8->setEnabled(false);
+        butt8->setEnabled(true);
         butt8->setMinimumSize(QSize(0, 90));
         butt8->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
 
@@ -624,7 +624,7 @@ public:
 
         pins->setDefault(false);
         page_buttons->setCurrentIndex(1);
-        buttons->setCurrentIndex(1);
+        buttons->setCurrentIndex(0);
         butt1->setDefault(false);
         butt2->setDefault(false);
         butt3->setDefault(false);

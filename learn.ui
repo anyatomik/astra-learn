@@ -612,7 +612,7 @@
             <property name="geometry">
              <rect>
               <x>0</x>
-              <y>0</y>
+              <y>-328</y>
               <width>584</width>
               <height>806</height>
              </rect>
@@ -639,6 +639,9 @@
              </item>
              <item>
               <widget class="QPushButton" name="butt2">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -658,6 +661,9 @@
              </item>
              <item>
               <widget class="QPushButton" name="butt3">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -677,6 +683,9 @@
              </item>
              <item>
               <widget class="QPushButton" name="butt4">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -693,6 +702,9 @@
              </item>
              <item>
               <widget class="QPushButton" name="butt5">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -709,6 +721,9 @@
              </item>
              <item>
               <widget class="QPushButton" name="butt6">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -725,6 +740,9 @@
              </item>
              <item>
               <widget class="QPushButton" name="butt7">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
                <property name="minimumSize">
                 <size>
                  <width>0</width>
@@ -741,6 +759,9 @@
              </item>
              <item>
               <widget class="QPushButton" name="butt8">
+               <property name="enabled">
+                <bool>true</bool>
+               </property>
                <property name="minimumSize">
                 <size>
                  <width>0</width>

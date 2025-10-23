@@ -1,0 +1,5 @@
+/bin/astra-learn
+/opt/usr/bin/astra-learn
+/usr/share/pixmaps/information.png
+/usr/share/applications/flydesktop/astra-learn.desktop
+/usr/share/applications/flystartmenu/astra-learn.desktop

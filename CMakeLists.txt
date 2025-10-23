@@ -74,4 +74,28 @@ if(QT_VERSION_MAJOR EQUAL 6)
     qt_finalize_executable(astra-learn)
 endif()
 
+set(CPACK_GENERATOR "DEB")
+set(CPACK_PROJECT_NAME ${PROJECT_NAME})
+set(CPACK_DEBIAN_PACKAGE_SECTION "contrib")
+set(CPACK_DEBIAN_PACKAGE_MAINTAINER "AnyaTomik <anya.tomilova15@gmail.coml>")
+set(CPACK_DEBIAN_PACKAGE_DESCRIPTION "Application for learning Astra Linux")
+set(CPACK_DEBIAN_PACKAGE_DEPENDS "libqt6core6a, libqt6widgets6")
+
+set(CPACK_PACKAGING_INSTALL_PREFIX "/")
+
+set(CPACK_STRIP_FILES ON)
+
+install(TARGETS astra-learn DESTINATION "opt/usr/bin")
+
+
+install(FILES ${CMAKE_SOURCE_DIR}/img/information.png DESTINATION "usr/share/pixmaps")
+
+
+install(FILES ${CMAKE_SOURCE_DIR}/astra-learn.desktop DESTINATION "usr/share/applications/flydesktop")
+
+
+install(FILES ${CMAKE_SOURCE_DIR}/astra-learn.desktop DESTINATION "usr/share/applications/flystartmenu")
+
+include(CPack)
+
 

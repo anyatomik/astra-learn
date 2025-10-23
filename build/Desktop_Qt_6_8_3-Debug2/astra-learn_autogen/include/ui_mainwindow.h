@@ -102,7 +102,7 @@ public:
         test_layout->setObjectName("test_layout");
         tests = new QPushButton(layoutWidget);
         tests->setObjectName("tests");
-        tests->setEnabled(false);
+        tests->setEnabled(true);
         tests->setMinimumSize(QSize(130, 130));
         tests->setMaximumSize(QSize(16777215, 200));
         tests->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
@@ -127,7 +127,7 @@ public:
         settings_layout->setObjectName("settings_layout");
         settings = new QPushButton(layoutWidget);
         settings->setObjectName("settings");
-        settings->setEnabled(false);
+        settings->setEnabled(true);
         settings->setMinimumSize(QSize(130, 130));
         settings->setMaximumSize(QSize(16777215, 200));
         settings->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));
@@ -152,7 +152,7 @@ public:
         information_layout->setObjectName("information_layout");
         information = new QPushButton(layoutWidget);
         information->setObjectName("information");
-        information->setEnabled(false);
+        information->setEnabled(true);
         information->setMinimumSize(QSize(130, 130));
         information->setMaximumSize(QSize(16777215, 200));
         information->setCursor(QCursor(Qt::CursorShape::PointingHandCursor));

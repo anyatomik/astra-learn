@@ -87,15 +87,15 @@ if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/usr/share/pixmaps" TYPE FILE FILES "/home/a-nya/Projects/Astra-learn/astra-learn/img/information.png.png")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/usr/share/pixmaps" TYPE FILE FILES "/home/a-nya/Projects/Astra-learn/astra-learn/img/information.png")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/usr/share/applications/flydesktop" TYPE FILE FILES "/home/a-nya/Projects/Astra-learn/astra-learn/astra-learn.desktop.desktop")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/usr/share/applications/flydesktop" TYPE FILE FILES "/home/a-nya/Projects/Astra-learn/astra-learn/astra-learn.desktop")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT STREQUAL "Unspecified" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/usr/share/applications/flystartmenu" TYPE FILE FILES "/home/a-nya/Projects/Astra-learn/astra-learn/astra-learn.desktop.desktop")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/usr/share/applications/flystartmenu" TYPE FILE FILES "/home/a-nya/Projects/Astra-learn/astra-learn/astra-learn.desktop")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)

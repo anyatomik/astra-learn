@@ -14,7 +14,7 @@ set(CPACK_BUILD_SOURCE_DIRS "/home/a-nya/Projects/Astra-learn/astra-learn;/home/
 set(CPACK_CMAKE_GENERATOR "Ninja")
 set(CPACK_COMPONENT_UNSPECIFIED_HIDDEN "TRUE")
 set(CPACK_COMPONENT_UNSPECIFIED_REQUIRED "TRUE")
-set(CPACK_DEBIAN_PACKAGE_DEPENDS "libqt5core5a, libqt5widgets5")
+set(CPACK_DEBIAN_PACKAGE_DEPENDS "libqt6core6a, libqt6widgets6")
 set(CPACK_DEBIAN_PACKAGE_DESCRIPTION "Application for learning Astra Linux")
 set(CPACK_DEBIAN_PACKAGE_MAINTAINER "AnyaTomik <anya.tomilova15@gmail.coml>")
 set(CPACK_DEBIAN_PACKAGE_SECTION "contrib")

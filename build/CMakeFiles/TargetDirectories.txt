@@ -1,0 +1,11 @@
+/home/a-nya/Projects/Astra-learn/astra-learn/build/CMakeFiles/astra-learn.dir
+/home/a-nya/Projects/Astra-learn/astra-learn/build/CMakeFiles/package.dir
+/home/a-nya/Projects/Astra-learn/astra-learn/build/CMakeFiles/package_source.dir
+/home/a-nya/Projects/Astra-learn/astra-learn/build/CMakeFiles/edit_cache.dir
+/home/a-nya/Projects/Astra-learn/astra-learn/build/CMakeFiles/rebuild_cache.dir
+/home/a-nya/Projects/Astra-learn/astra-learn/build/CMakeFiles/list_install_components.dir
+/home/a-nya/Projects/Astra-learn/astra-learn/build/CMakeFiles/install.dir
+/home/a-nya/Projects/Astra-learn/astra-learn/build/CMakeFiles/install/local.dir
+/home/a-nya/Projects/Astra-learn/astra-learn/build/CMakeFiles/install/strip.dir
+/home/a-nya/Projects/Astra-learn/astra-learn/build/CMakeFiles/astra-learn_autogen_timestamp_deps.dir
+/home/a-nya/Projects/Astra-learn/astra-learn/build/CMakeFiles/astra-learn_autogen.dir

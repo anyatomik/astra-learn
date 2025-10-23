@@ -1,0 +1,8 @@
+[Desktop Entry]
+Type=Application
+Name=AstraLearn
+Exec=./astra-learn/build/astra-learn
+Icon=./img/information.png
+Categories=Utility;
+Terminal=false
+StartupNotify=true
